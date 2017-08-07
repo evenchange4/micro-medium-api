@@ -1,5 +1,5 @@
 {
-  "name": "medium-api-micro",
+  "name": "micro-medium-api",
   "version": "1.0.0",
   "main": "src/index.js",
   "author": "Michael Hsu <evenchange4@gmail.com>",
@@ -16,7 +16,7 @@
     ]
   },
   "now": {
-    "alias": "medium-api-micro",
+    "alias": "micro-medium-api",
     "type": "npm"
   },
   "dependencies": {
