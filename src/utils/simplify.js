@@ -9,7 +9,7 @@ const simplify = (baseURL, username) => R.pipe(
   R.map(e => ({
     title: e.title,
     updatedAt: e.updatedAt,
-    url: `${baseURL}/@username/${e.uniqueSlug}`,
+    url: `${baseURL}/@${username}/${e.uniqueSlug}`,
   })),
 );
 
