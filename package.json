@@ -22,8 +22,10 @@
   "dependencies": {
     "axios": "^0.16.2",
     "micro": "^8.0.1",
+    "micro-compress": "^1.0.0",
     "micro-cors": "^0.0.4",
     "microrouter": "^2.2.1",
+    "query-string": "^5.0.0",
     "ramda": "^0.24.1"
   },
   "devDependencies": {
