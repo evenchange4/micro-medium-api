@@ -14,13 +14,14 @@ before_install:
     fi
 
 script:
-  # - echo "TODO: test"
+  - yarn run eslint
 
 after_success:
-  # - |
-  #   if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
-  #     ./tasks/deploy.sh
-  #   fi
+  - |
+    if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
+      ./tasks/deploy.sh '*' 'micro-medium-api.now.sh'
+      ./tasks/deploy.sh 'michaelhsu.tw' 'micro-medium-api-michaelhsutw.now.sh'
+    fi
 
 cache:
   yarn: true
