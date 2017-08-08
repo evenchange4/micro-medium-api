@@ -21,9 +21,11 @@ URL=$(now -e ORIGIN="$ORIGIN" --public --token "$NOW_TOKEN")
 await-url "$URL"
 now ls --token "$NOW_TOKEN"
 
-# 2. Alias and purge
+# 2. Alias
 now alias set "$URL" "$ALIAS" --token "$NOW_TOKEN"
-now-purge -t "$NOW_TOKEN" --team $TEAM
 
 # 3. Scale to 1
 now scale "$ALIAS" 1 --token "$NOW_TOKEN"
+
+# 4. Purge
+now-purge -t "$NOW_TOKEN" --team $TEAM
