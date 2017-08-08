@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - "8.2.1"
+  - 8.2.1
 env:
   global:
     - YARN_VERSION=0.27.5
@@ -26,10 +26,21 @@ after_success:
       ./tasks/deploy-prod.sh
     fi
 
+deploy:
+  provider: releases
+  api_key:
+    secure: OX2SGfHiMWNNEARCTlqHaI9P7deEFsBdX54yyLMNQEPWYHLNEDWWPfskwfynunKMERaUb1oGyWcp+/RHrrxyz4m3ThSMcXGVFM4gh+Fjsbi99CjWzQvIadsjeyreDBe5/32XnWMvOAtVqWk52F+FfG9J6KW9IMZF5hoWBiQAbAnQ4oFCe9MCb8XqnCU3qj1g0re5ja3ZrlyJWcVcQIT3cI3LMhzcwxvtosdVclmVE13WzZ0+l7Wq44NQhr8F6K7e3PnPzu2RPMjzfTfBmNdDHICoCjHvTaUQdZihU7kNtI8mKvhsh5WH8vVXOI3meCGeUvIskeN6AmDt2JtgmLTVbmqE+GG+m+Cxvb/IZU2xtlifIsN8Mekh81caMOZcuwsOwc4R1SMsPfDeovtKTwfbG99eUB3zLeEDT952YLtD+XEN3l1fVmIN7N2Ie4auY/MCmOpgQbscgzviJlfBAFNETO1nfJvPoqgJF4H2DOHBMkzmMydSM/g3IE5AuEH97zTJolyrSbjTKFl8/9xJbgEM2XB5MF0QEDspXqDojwL+ZE9ij9OyBc6HOtViXQ9cv66C6B1sgvDNH8qfIzYnCif3BFo2Z1mihbE1vrJg6yqzb7pW5ClAWx8Z+SOwKSoCa5UZjHnHpFbTcdyrayvVjyrx9qjebBfJDBL2qESZOter6pM=
+  file_glob: true
+  skip_cleanup: true
+  file: "./pkg/*"
+  on:
+    repo: evenchange4/micro-medium-api
+    tags: true
+
 cache:
   yarn: true
   directories:
-    - ~/.yarn
+    - "~/.yarn"
     - node_modules
 
 notifications:

@@ -8,3 +8,4 @@
 
 * refactor(routes): extract routes
 * feat(now): production deploy
+* feat(pkg):  github release

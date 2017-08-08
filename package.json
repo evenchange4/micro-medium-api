@@ -12,11 +12,6 @@
     "format": "prettier --trailing-comma all --single-quote --write '{src,bin}/**/*.js'"
   },
   "bin": "bin/server.js",
-  "pkg": {
-    "targets": [
-      "node8"
-    ]
-  },
   "now": {
     "alias": "micro-medium-api",
     "type": "npm"
