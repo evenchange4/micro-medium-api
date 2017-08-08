@@ -121,6 +121,10 @@ $ docker build -t mirco-medium-api .
 $ git push
 ```
 
+## Inspiration
+
+- https://github.com/enginebai/PyMedium
+
 ## CONTRIBUTING
 
 *   ⇄ Pull requests and ★ Stars are always welcome.

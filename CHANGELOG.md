@@ -3,6 +3,9 @@
 ## [HEAD]
 > Unreleased
 
+* fix(deploy): fix origin for production
+* docs(CHANGELOG): add Inspiration
+
 ## [v1.1.0]
 > Aug 08, 2017
 
