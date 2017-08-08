@@ -26,10 +26,10 @@
 Download from GitHub [latest release](https://github.com/evenchange4/micro-medium-api/releases/latest).
 
 ```
-$ ORIGIN=$YOUR_DOMAIN ./pkg/micro-medium-api-macos $PORT
+$ ORIGIN=$YOUR_DOMAIN ./micro-medium-api-macos $PORT
 ```
 
-> Note: run it without Node.js installed.
+> Note: Run it without Node.js installed.
 
 ### c. Docker image
 
@@ -68,7 +68,7 @@ $ docker run --rm -it \
 
 https://micro-medium-api.now.sh/@evenchange4/posts?limit=100&type=simple
 
-> Note: you should deploy your own service for production usage.
+> Note: You should deploy your own service for production usage.
 
 ## Technology Stacks
 
