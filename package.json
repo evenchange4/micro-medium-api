@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "micro-medium-api",
   "version": "1.0.1",
   "main": "src/index.js",

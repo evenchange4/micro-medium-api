@@ -1,4 +1,5 @@
-# micro-medium-api
+# Micro-medium-api
+> Microservice for fetching the latest posts of Medium.
 
 [![Travis][travis-badge]][travis]
 [![Codecov Status][codecov-badge]][codecov]
@@ -12,25 +13,75 @@
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
 [![license][license-badge]][license]
 
-## Deploy to Now.sh
+## How To Use
+
+### a. Deploy to Now.sh
 
 > One click deploys to △ now
 
 [![Deploy to now](https://deploy.now.sh/static/button.svg)](https://deploy.now.sh/?repo=https://github.com/evenchange4/micro-medium-api&env=ORIGIN)
 
-## references
+### b. Binary executable file
 
-https://github.com/pedronauck/micro-router
-https://github.com/zeit/micro
+Download from GitHub [latest release](https://github.com/evenchange4/micro-medium-api/releases/latest).
 
+```
+$ ORIGIN=$YOUR_DOMAIN ./pkg/micro-medium-api-macos $PORT
+```
+
+> Note: run it without Node.js installed.
+
+### c. Docker image
+
+Pull from [dockerhub][dockerhub].
+
+```
+$ docker pull evenchange4/micro-medium-api:latest
+$ docker run --rm -it \
+  -p 3000:3000 \
+  -e "ORIGIN=DOMAIN" \
+  evenchange4/micro-medium-api:latest
+```
+
+## Demo
+
+https://micro-medium-api.now.sh/@evenchange4/posts?type=simple
+
+> Note: you should deploy your own service for production usage.
+
+## Technology Stacks
+
+- [Micro](https://github.com/zeit/micro): Asynchronous HTTP microservices.
+- [Micro-router](https://github.com/pedronauck/micro-router): A tiny and functional router for Zeit's Micro.
+- [Dockerhub][dockerhub]: Automatically deploy docker image.
+- [Now.sh](https://zeit.co/now): Realtime global deployments
+- [Pkg](https://github.com/zeit/pkg): Package your Node.js project into an executable
+- Travis: CI
 
 ## Developer Guide
 
+### Requirements
+
+-   node >= 8.2.1
+-   npm >= 5.3.0
+-   yarn >= 0.27.5
+
+### Test
+
 ```
-$ docker build -t mirco-medium-api .
+$ yarn run format
+$ yarn run eslint
+$ yarn run test:watch
 ```
 
-MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
+### Docker
+
+```
+$ docker build -t mirco-medium-api .
+
+# Push to dockerhub
+$ git push
+```
 
 [travis-badge]: https://img.shields.io/travis/evenchange4/micro-medium-api/master.svg?style=flat-square
 [travis]: https://travis-ci.org/evenchange4/micro-medium-api
