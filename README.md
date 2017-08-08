@@ -43,15 +43,30 @@ $ docker run --rm -it \
   evenchange4/micro-medium-api:latest
 ```
 
-## Environment Variables
+## API
+
+### Environment Variables
 
 | **ENV**   | **Required**  | **Default**  | **Description** |
 | --------- | --------- | --------- | --------- |
 | `ORIGIN`  |  | `*` | Setup `access-control-allow-origin` for CORS. |
 
+### CLI Arguments
+
+|    | **Required**  | **Default**  | **Description** |
+| --------- | --------- | --------- | --------- |
+| First  |  | `3000` | PORT |
+
+### URL query parameters
+
+| **query**   | **Required**  | **Default**  | **Description** |
+| --------- | --------- | --------- | --------- |
+| `limit`  |  | `10` | Medium API |
+| `type`  |  |  | A simple array returned if set the value to `simple`. |
+
 ## Demo
 
-https://micro-medium-api.now.sh/@evenchange4/posts?type=simple
+https://micro-medium-api.now.sh/@evenchange4/posts?limit=100&type=simple
 
 > Note: you should deploy your own service for production usage.
 
