@@ -15,6 +15,7 @@ before_install:
 
 script:
   - yarn run eslint
+  - yarn run pkg
 
 after_success:
   - |
