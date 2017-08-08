@@ -3,6 +3,8 @@
 ## [HEAD]
 > Unreleased
 
+* feat(simplify): add subtitle, sort by firstPublishedAt 
+
 ## [v1.0.2]
 > Aug 08, 2017
 
