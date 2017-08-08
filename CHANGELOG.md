@@ -7,3 +7,4 @@
 > Aug 08, 2017
 
 * refactor(routes): extract routes
+* feat(now): production deploy

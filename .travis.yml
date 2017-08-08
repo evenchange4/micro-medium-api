@@ -19,11 +19,11 @@ script:
 after_success:
   - |
     if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
-      ./tasks/deploy.sh '*' 'micro-medium-api.now.sh'
+      ./tasks/deploy.sh
     fi
   - |
     if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
-      ./tasks/deploy.sh 'michaelhsu.tw' 'micro-medium-api-michaelhsutw.now.sh'
+      ./tasks/deploy-prod.sh
     fi
 
 cache:

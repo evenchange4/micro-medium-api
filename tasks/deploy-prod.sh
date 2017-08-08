@@ -3,10 +3,10 @@
 set -e
 
 # Arguments
-ORIGIN='*'
-ALIAS='micro-medium-api.now.sh'
+ORIGIN='michaelhsu.tw'
+ALIAS='micro-medium-api-michaelhsutw.now.sh'
 # Project config
-TEAM=micro-medium-api
+TEAM=medium-api-prod
 
 alias now="node_modules/.bin/now"
 alias now-purge="node_modules/.bin/now-purge"
