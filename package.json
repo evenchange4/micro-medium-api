@@ -10,7 +10,20 @@
     "dev": "micro-dev src/index.js",
     "pkg": "pkg . --out-path pkg",
     "eslint": "eslint ./",
-    "format": "prettier --trailing-comma all --single-quote --write '{src,bin}/**/*.js'"
+    "format": "prettier --trailing-comma all --single-quote --write '{src,bin}/**/*.js'",
+    "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
+    "test:watch": "npm run test -- --watch"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!src/**/*.test.{js,jsx}"
+    ],
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/",
+      "<rootDir>/coverage/",
+      "<rootDir>/pkg/"
+    ]
   },
   "bin": "bin/server.js",
   "now": {
@@ -29,6 +42,7 @@
   "devDependencies": {
     "await-url": "^0.3.0",
     "babel-eslint": "^7.2.3",
+    "codecov": "^2.3.0",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "^15.0.2",
     "eslint-config-prettier": "^2.3.0",
@@ -39,11 +53,14 @@
     "eslint-plugin-jsx-a11y": "^5.0.3",
     "eslint-plugin-prettier": "^2.1.2",
     "eslint-plugin-react": "^7.1.0",
+    "jest": "^20.0.4",
     "micro-dev": "^1.1.2",
     "now": "^7.3.0",
     "now-purge": "^0.0.14",
     "pkg": "^4.2.2",
-    "prettier": "^1.5.3"
+    "prettier": "^1.5.3",
+    "request-promise": "^4.2.1",
+    "test-listen": "^1.0.2"
   },
   "eslintConfig": {
     "parser": "babel-eslint",

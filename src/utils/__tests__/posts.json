@@ -1,0 +1,3437 @@
+{
+  "success": true,
+  "payload": {
+    "user": {
+      "userId": "aa88256220c4",
+      "name": "Michael Hsu",
+      "username": "evenchange4",
+      "createdAt": 1404795826955,
+      "lastPostCreatedAt": 1501232857574,
+      "imageId": "1*k6r50jcH9VUERJTifLOdqQ.jpeg",
+      "backgroundImageId": "",
+      "bio": "Front-End Developer | https://michaelhsu.tw/",
+      "twitterScreenName": "evenchange4",
+      "facebookAccountId": "1076445479035300",
+      "allowNotes": 1,
+      "mediumMemberAt": 0,
+      "isNsfw": false,
+      "type": "User"
+    },
+    "streamItems": [
+      {
+        "createdAt": 1502169964556,
+        "heading": {
+          "text": "Latest",
+          "heading": {
+            "fallbackTitle": "Latest",
+            "headingBasic": {
+              "title": "Latest"
+            },
+            "headingType": "headingBasic"
+          }
+        },
+        "randomId": "2a2788c1a03b",
+        "itemType": "heading",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "9691e54b0ef0"
+        },
+        "randomId": "b5353f33572f",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "fac9e9e37e44"
+        },
+        "randomId": "3491b22b8e89",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "b056da2fa0aa"
+        },
+        "randomId": "4d43b754c310",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "70aeebbb2dc7"
+        },
+        "randomId": "ff32fc795c15",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "9330c1245ec1"
+        },
+        "randomId": "fa840406b29c",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964556,
+        "postPreview": {
+          "postId": "2e83bba0c608"
+        },
+        "randomId": "4dc51fb6516f",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964557,
+        "postPreview": {
+          "postId": "61b0a26215a0"
+        },
+        "randomId": "9d8f03fdc789",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964557,
+        "postPreview": {
+          "postId": "9e562d28e17"
+        },
+        "randomId": "be171c97c77",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964557,
+        "postPreview": {
+          "postId": "9f9ff8fe9aef"
+        },
+        "randomId": "d8906a28443",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      },
+      {
+        "createdAt": 1502169964557,
+        "postPreview": {
+          "postId": "13f567ae0184"
+        },
+        "randomId": "f269afdb3fd4",
+        "itemType": "postPreview",
+        "type": "StreamItem"
+      }
+    ],
+    "userMeta": {
+      "numberOfPostsPublished": 16,
+      "interestTags": [
+        {
+          "slug": "cyclejs",
+          "name": "Cyclejs",
+          "postCount": 18,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 27,
+            "postCount": 18,
+            "coverImage": {
+              "id": "1*LYExsjBu8vKDFebtU2delw.png",
+              "originalWidth": 1389,
+              "originalHeight": 657
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "es2015",
+          "name": "Es2015",
+          "postCount": 207,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 473,
+            "postCount": 207,
+            "coverImage": {
+              "id": "1*evsRlXzetp7FdEOK2ynL1Q.gif",
+              "originalWidth": 581,
+              "originalHeight": 327,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "es6",
+          "name": "ES6",
+          "postCount": 1976,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 4861,
+            "postCount": 1976,
+            "coverImage": {
+              "id": "1*IbrtdEkWTmug3y4aQ9ZQVw.jpeg",
+              "originalWidth": 1920,
+              "originalHeight": 1241
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "functional-programming",
+          "name": "Functional Programming",
+          "postCount": 2733,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 7584,
+            "postCount": 2733,
+            "coverImage": {
+              "id": "1*IbrtdEkWTmug3y4aQ9ZQVw.jpeg",
+              "originalWidth": 1920,
+              "originalHeight": 1241
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "javascript",
+          "name": "JavaScript",
+          "postCount": 38126,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 38023,
+            "postCount": 38126,
+            "coverImage": {
+              "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+              "originalWidth": 1000,
+              "originalHeight": 400
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "nodejs",
+          "name": "Nodejs",
+          "postCount": 7344,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 11427,
+            "postCount": 7344,
+            "coverImage": {
+              "id": "1*5KcDyNtIfWXVe9uVUD0A_g.png",
+              "originalWidth": 687,
+              "originalHeight": 271,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "ramda",
+          "name": "Ramda",
+          "postCount": 33,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 43,
+            "postCount": 33,
+            "coverImage": {
+              "id": "1*ub06dgVGDo7XeByUxON0-w.jpeg",
+              "originalWidth": 4208,
+              "originalHeight": 3429
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "react",
+          "name": "React",
+          "postCount": 8689,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 16218,
+            "postCount": 8689,
+            "coverImage": {
+              "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+              "originalWidth": 1000,
+              "originalHeight": 400
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "reactive-programming",
+          "name": "Reactive Programming",
+          "postCount": 360,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 901,
+            "postCount": 360,
+            "coverImage": {
+              "id": "1*i8d0WlTwViNNn4xiOGdLHQ.jpeg",
+              "originalWidth": 1800,
+              "originalHeight": 1120
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "redux",
+          "name": "Redux",
+          "postCount": 1528,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 4822,
+            "postCount": 1528,
+            "coverImage": {
+              "id": "1*-CUeCOl0P3mLFWS2t2WyJA.jpeg",
+              "originalWidth": 1000,
+              "originalHeight": 667
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "rxjs",
+          "name": "Rxjs",
+          "postCount": 251,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 643,
+            "postCount": 251,
+            "coverImage": {
+              "id": "1*v8azc9mWsGsbNm6FQzJlFQ.png",
+              "originalWidth": 1200,
+              "originalHeight": 630
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "technology",
+          "name": "Technology",
+          "postCount": 84559,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 1825081,
+            "postCount": 84559,
+            "coverImage": {
+              "id": "1*yH2cmH1uhoFpR7HIseOAsw.jpeg"
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "web-development",
+          "name": "Web Development",
+          "postCount": 47974,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 41879,
+            "postCount": 47974,
+            "coverImage": {
+              "id": "1*rZ3nACPIyeP3AptkIbAJIQ.jpeg",
+              "originalWidth": 1920,
+              "originalHeight": 1280,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "webpack",
+          "name": "Webpack",
+          "postCount": 1051,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 2386,
+            "postCount": 1051,
+            "coverImage": {
+              "id": "1*PcKt44c-UZBBTfNBaovxeQ.png",
+              "originalWidth": 2132,
+              "originalHeight": 1334,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        }
+      ],
+      "userId": "aa88256220c4",
+      "userSuggestionReason": {
+        "followeesWhoFollow": {
+          "users": []
+        },
+        "reason": "followeesWhoFollow"
+      },
+      "collectionIds": [],
+      "authorTags": [
+        {
+          "slug": "javascript",
+          "name": "JavaScript",
+          "postCount": 38126,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 38023,
+            "postCount": 38126,
+            "coverImage": {
+              "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+              "originalWidth": 1000,
+              "originalHeight": 400
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "iot",
+          "name": "IoT",
+          "postCount": 10390,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 2970,
+            "postCount": 10390,
+            "coverImage": {
+              "id": "1*EUbadzBBmQzG8G6n9MSojw.jpeg",
+              "originalWidth": 1000,
+              "originalHeight": 500,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "react",
+          "name": "React",
+          "postCount": 8689,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 16218,
+            "postCount": 8689,
+            "coverImage": {
+              "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+              "originalWidth": 1000,
+              "originalHeight": 400
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "git",
+          "name": "Git",
+          "postCount": 3443,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 1382,
+            "postCount": 3443,
+            "coverImage": {
+              "id": "1*xr2gfbZAkrzQGlObVxw7Cg.png",
+              "originalWidth": 557,
+              "originalHeight": 506,
+              "focusPercentX": 48,
+              "focusPercentY": 83
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "arduino",
+          "name": "Arduino",
+          "postCount": 1972,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 808,
+            "postCount": 1972,
+            "coverImage": {
+              "id": "1*onUqSNXOFWa4NdqMxXQMSQ.jpeg",
+              "originalWidth": 900,
+              "originalHeight": 675,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "progressive-web-app",
+          "name": "Progressive Web App",
+          "postCount": 429,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 1084,
+            "postCount": 429,
+            "coverImage": {
+              "id": "1*H3Ri9HkREcjujxPiUv9xFw.jpeg",
+              "originalWidth": 706,
+              "originalHeight": 422
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "reactive-programming",
+          "name": "Reactive Programming",
+          "postCount": 360,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 901,
+            "postCount": 360,
+            "coverImage": {
+              "id": "1*i8d0WlTwViNNn4xiOGdLHQ.jpeg",
+              "originalWidth": 1800,
+              "originalHeight": 1120
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "rxjs",
+          "name": "Rxjs",
+          "postCount": 251,
+          "virtuals": {
+            "isFollowing": true
+          },
+          "metadata": {
+            "followerCount": 643,
+            "postCount": 251,
+            "coverImage": {
+              "id": "1*v8azc9mWsGsbNm6FQzJlFQ.png",
+              "originalWidth": 1200,
+              "originalHeight": 630
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "webpack-2",
+          "name": "Webpack 2",
+          "postCount": 141,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 207,
+            "postCount": 141,
+            "coverImage": {
+              "id": "1*nZO9iDlZ_9BjFosw2qCXDQ.png",
+              "originalWidth": 1491,
+              "originalHeight": 1202,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "eslint",
+          "name": "Eslint",
+          "postCount": 137,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 54,
+            "postCount": 137,
+            "coverImage": {
+              "id": "1*-zy49yrWT0CHwkJpy56srg.jpeg",
+              "originalWidth": 7003,
+              "originalHeight": 4674,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "cycle",
+          "name": "Cycle",
+          "postCount": 111,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 1,
+            "postCount": 111,
+            "coverImage": {
+              "id": "1*SFwZwL3eQx8BQLXIHV-pVg.jpeg",
+              "originalWidth": 6000,
+              "originalHeight": 4000
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "i18n",
+          "name": "I18n",
+          "postCount": 105,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 10,
+            "postCount": 105,
+            "coverImage": {
+              "id": "1*BCplFE720Xb4bn3sfETqZA.gif",
+              "originalWidth": 500,
+              "originalHeight": 206,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "ci",
+          "name": "Ci",
+          "postCount": 104,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 8,
+            "postCount": 104,
+            "coverImage": {
+              "id": "1*7xrRU8PbIuoJWC5KrF11hQ.jpeg",
+              "originalWidth": 1200,
+              "originalHeight": 674
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "create-react-app",
+          "name": "Create React App",
+          "postCount": 100,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 64,
+            "postCount": 100,
+            "coverImage": {
+              "id": "1*OlIRsvVO5aK7ja9HmwXz_Q.gif",
+              "originalWidth": 493,
+              "originalHeight": 230,
+              "isFeatured": true
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "circleci",
+          "name": "Circleci",
+          "postCount": 94,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 11,
+            "postCount": 94,
+            "coverImage": {
+              "id": "1*DBFfuJeL6bRRA6ODiW2oKg.jpeg",
+              "originalWidth": 2000,
+              "originalHeight": 1126
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "styled-components",
+          "name": "Styled Components",
+          "postCount": 47,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 71,
+            "postCount": 47,
+            "coverImage": {
+              "id": "1*6CI0TvS-uP37tMvbFj57PA.jpeg",
+              "originalWidth": 1280,
+              "originalHeight": 640
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "mediatek",
+          "name": "Mediatek",
+          "postCount": 44,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 3,
+            "postCount": 44,
+            "coverImage": {
+              "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+              "originalWidth": 1283,
+              "originalHeight": 479,
+              "isFeatured": true,
+              "focusPercentX": 43,
+              "focusPercentY": 51
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "recompose",
+          "name": "Recompose",
+          "postCount": 16,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 12,
+            "postCount": 16,
+            "coverImage": {
+              "id": "1*qiFC3tA3hgN8IfLbYsSKgA.png",
+              "originalWidth": 2350,
+              "originalHeight": 1250,
+              "isFeatured": true,
+              "focusPercentX": 66,
+              "focusPercentY": 28
+            }
+          },
+          "type": "Tag"
+        },
+        {
+          "slug": "netlify",
+          "name": "Netlify",
+          "postCount": 11,
+          "virtuals": {
+            "isFollowing": false
+          },
+          "metadata": {
+            "followerCount": 3,
+            "postCount": 11,
+            "coverImage": {
+              "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+              "originalWidth": 1283,
+              "originalHeight": 479,
+              "isFeatured": true,
+              "focusPercentX": 43,
+              "focusPercentY": 51
+            }
+          },
+          "type": "Tag"
+        }
+      ],
+      "featuredPostId": "b056da2fa0aa",
+      "topWriterInTags": [],
+      "type": "UserMeta"
+    },
+    "userNavItemList": {
+      "userNavItems": [
+        {
+          "title": "Profile",
+          "url": "https://medium.com/@evenchange4",
+          "systemItem": {
+            "systemType": 1
+          },
+          "navType": "systemItem"
+        },
+        {
+          "title": "Latest",
+          "url": "https://medium.com/@evenchange4/latest",
+          "systemItem": {
+            "systemType": 2
+          },
+          "navType": "systemItem"
+        },
+        {
+          "title": "Recommends",
+          "url": "https://medium.com/@evenchange4/has-recommended",
+          "systemItem": {
+            "systemType": 4
+          },
+          "navType": "systemItem"
+        },
+        {
+          "title": "Highlights",
+          "url": "https://medium.com/@evenchange4/highlights",
+          "systemItem": {
+            "systemType": 5
+          },
+          "navType": "systemItem"
+        },
+        {
+          "title": "Responses",
+          "url": "https://medium.com/@evenchange4/responses",
+          "systemItem": {
+            "systemType": 3
+          },
+          "navType": "systemItem"
+        }
+      ]
+    },
+    "userNavActiveIndex": 1,
+    "profileTypeName": "latest",
+    "references": {
+      "User": {
+        "aa88256220c4": {
+          "userId": "aa88256220c4",
+          "name": "Michael Hsu",
+          "username": "evenchange4",
+          "createdAt": 1404795826955,
+          "lastPostCreatedAt": 1501232857574,
+          "imageId": "1*k6r50jcH9VUERJTifLOdqQ.jpeg",
+          "backgroundImageId": "",
+          "bio": "Front-End Developer | https://michaelhsu.tw/",
+          "twitterScreenName": "evenchange4",
+          "facebookAccountId": "1076445479035300",
+          "allowNotes": 1,
+          "mediumMemberAt": 0,
+          "isNsfw": false,
+          "type": "User"
+        }
+      },
+      "Post": {
+        "9691e54b0ef0": {
+          "id": "9691e54b0ef0",
+          "versionId": "598b8ea959fd",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "使用 CircleCI 2.0 Workflows 挑戰三倍速",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "598b8ea959fd",
+          "latestPublishedVersion": "598b8ea959fd",
+          "hasUnpublishedEdits": false,
+          "latestRev": 1428,
+          "createdAt": 1500968093260,
+          "updatedAt": 1501469016352,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1501225933707,
+          "latestPublishedAt": 1501266506442,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "減少 Monorepo CI 所需花費時間",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*v5xxgeaxHUb0ADHW8KrexA.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 891,
+              "originalHeight": 486,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 36,
+              "focusPercentY": 52
+            },
+            "wordCount": 422,
+            "imageCount": 6,
+            "readingTime": 2.5424528301886795,
+            "subtitle": "減少 Monorepo CI 所需花費時間",
+            "usersBySocialRecommends": [],
+            "recommends": 14,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "ci",
+                "name": "Ci",
+                "postCount": 104,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 8,
+                  "postCount": 104,
+                  "coverImage": {
+                    "id": "1*7xrRU8PbIuoJWC5KrF11hQ.jpeg",
+                    "originalWidth": 1200,
+                    "originalHeight": 674
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "circleci",
+                "name": "Circleci",
+                "postCount": 94,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 11,
+                  "postCount": 94,
+                  "coverImage": {
+                    "id": "1*DBFfuJeL6bRRA6ODiW2oKg.jpeg",
+                    "originalWidth": 2000,
+                    "originalHeight": 1126
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mediatek",
+                "name": "Mediatek",
+                "postCount": 44,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 3,
+                  "postCount": 44,
+                  "coverImage": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "javascript",
+                "name": "JavaScript",
+                "postCount": 38126,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 38023,
+                  "postCount": 38126,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://circleci.com/build-insights/gh/MCS-Lite",
+                  "alts": [],
+                  "httpStatus": 401
+                },
+                {
+                  "url": "https://circleci.com/docs/2.0/",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite/blob/master/.travis.yml",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/react-stack-%E9%96%8B%E7%99%BC%E9%AB%94%E9%A9%97%E8%88%87%E5%84%AA%E5%8C%96%E7%AD%96%E7%95%A5-b056da2fa0aa#1255",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/b056da2fa0aa"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/b056da2fa0aa"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/build-a-web-app-in-mediatek-61b0a26215a0",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/61b0a26215a0"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/61b0a26215a0"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/circleci/frontend/blob/master/.circleci/config.yml",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/react-stack-%E9%96%8B%E7%99%BC%E9%AB%94%E9%A9%97%E8%88%87%E5%84%AA%E5%8C%96%E7%AD%96%E7%95%A5-b056da2fa0aa",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/b056da2fa0aa"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/b056da2fa0aa"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite/pull/424",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://blog.wu-boy.com/2017/06/downsize-node_modules-to-improve-deploy-speed/",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://codecov.io/gh/MCS-Lite/mcs-lite/list/master/",
+                  "alts": [],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1501266605030
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 14,
+            "sectionCount": 6
+          },
+          "coverless": true,
+          "slug": "使用-circleci-2-0-workflows-挑戰三倍速",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "使用-circleci-2-0-workflows-挑戰三倍速-9691e54b0ef0",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*v5xxgeaxHUb0ADHW8KrexA.png",
+                    "originalWidth": 891,
+                    "originalHeight": 486,
+                    "isFeatured": true,
+                    "focusPercentX": 36,
+                    "focusPercentY": 52
+                  }
+                },
+                {
+                  "name": "f67d",
+                  "type": 3,
+                  "text": "使用 CircleCI 2.0 Workflows 挑戰三倍速",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "8a61",
+                  "type": 13,
+                  "text": "減少 Monorepo CI 所需花費時間",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "fac9e9e37e44": {
+          "id": "fac9e9e37e44",
+          "versionId": "1383caf05617",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Centralized Error Handle in React with RxJS",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "1383caf05617",
+          "latestPublishedVersion": "1383caf05617",
+          "hasUnpublishedEdits": false,
+          "latestRev": 2066,
+          "createdAt": 1499745856456,
+          "updatedAt": 1501559328163,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1499912011732,
+          "latestPublishedAt": 1499912011732,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "使用 Redux-Cylces 實行錯誤集中處理",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*VimXrAu-hgWIGl3fbgh34Q.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2168,
+              "originalHeight": 660,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 66,
+              "focusPercentY": 53
+            },
+            "wordCount": 574,
+            "imageCount": 5,
+            "readingTime": 2.99937106918239,
+            "subtitle": "使用 Redux-Cylces 實行錯誤集中處理",
+            "usersBySocialRecommends": [],
+            "recommends": 9,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "rxjs",
+                "name": "Rxjs",
+                "postCount": 251,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 643,
+                  "postCount": 251,
+                  "coverImage": {
+                    "id": "1*v8azc9mWsGsbNm6FQzJlFQ.png",
+                    "originalWidth": 1200,
+                    "originalHeight": 630
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "cycle",
+                "name": "Cycle",
+                "postCount": 111,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 1,
+                  "postCount": 111,
+                  "coverImage": {
+                    "id": "1*SFwZwL3eQx8BQLXIHV-pVg.jpeg",
+                    "originalWidth": 6000,
+                    "originalHeight": 4000
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "reactive-programming",
+                "name": "Reactive Programming",
+                "postCount": 360,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 901,
+                  "postCount": 360,
+                  "coverImage": {
+                    "id": "1*i8d0WlTwViNNn4xiOGdLHQ.jpeg",
+                    "originalWidth": 1800,
+                    "originalHeight": 1120
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "javascript",
+                "name": "JavaScript",
+                "postCount": 38126,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 38023,
+                  "postCount": 38126,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://cycle.js.org/api/http.html",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite/blob/master/packages/mcs-lite-admin-web/src/modules/auth.js#L121",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://egghead.io/lessons/rxjs-error-handling-in-rxjs",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/ReactiveX/rxjs/blob/master/src/operator/switchMap.ts#L94-L99",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/whitecolor/cycle-async-driver",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/build-a-web-app-in-mediatek-61b0a26215a0",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/61b0a26215a0"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/61b0a26215a0"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/refactoring-react-component-in-reactive-way-52a64fb6d70b",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/52a64fb6d70b"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/52a64fb6d70b"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=KbMLN7oYO7E",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=KbMLN7oYO7E&feature=applinks"
+                    },
+                    {
+                      "type": 3,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=KbMLN7oYO7E&feature=applinks"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@turnbullm/continue-rxjs-streams-when-errors-occur-14e8017e04e",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/14e8017e04e"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/14e8017e04e"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://youtu.be/KbMLN7oYO7E?list=LLOoSrjTUcK6erg8pCjrxt5Q&t=565",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=KbMLN7oYO7E&list=LLOoSrjTUcK6erg8pCjrxt5Q&feature=applinks"
+                    },
+                    {
+                      "type": 3,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=KbMLN7oYO7E&list=LLOoSrjTUcK6erg8pCjrxt5Q&feature=applinks"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://rxviz.com/v/7J2aDyON",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://rxviz.com/v/VOKqNV8X",
+                  "alts": [],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1499912034344
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 11,
+            "sectionCount": 4
+          },
+          "coverless": true,
+          "slug": "centralized-error-handle-in-react-with-rxjs",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "centralized-error-handle-in-react-with-rxjs-fac9e9e37e44",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*VimXrAu-hgWIGl3fbgh34Q.png",
+                    "originalWidth": 2168,
+                    "originalHeight": 660,
+                    "isFeatured": true,
+                    "focusPercentX": 66,
+                    "focusPercentY": 53
+                  }
+                },
+                {
+                  "name": "c082",
+                  "type": 3,
+                  "text": "Centralized Error Handle in React with RxJS",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "4736",
+                  "type": 13,
+                  "text": "使用 Redux-Cylces 實行錯誤集中處理",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "b056da2fa0aa": {
+          "id": "b056da2fa0aa",
+          "versionId": "bb75f447f283",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "React Stack 開發體驗與優化策略",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "bb75f447f283",
+          "latestPublishedVersion": "bb75f447f283",
+          "hasUnpublishedEdits": false,
+          "latestRev": 4896,
+          "createdAt": 1498389624893,
+          "updatedAt": 1502118302072,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1499671540298,
+          "latestPublishedAt": 1499680354281,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Landing Page for MCS Lite",
+            "postDisplay": {
+              "coverless": true
+            },
+            "metaDescription": "簡單的頁面也可以用 React 進行開發，本篇文章即是針對此方向分成兩個部分來討論： PART I. React Stack 開發體驗與推薦工具 PART II. 效能評估與優化策略。降低 First Meaningful Paint 所需的封包大小，加速顯示較重要的資訊，並且透過 Lazyloadable 來達到緩載入 Offscreen JS Chunk 的目的，並且使用評估分數的指標來檢.."
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*_m9YLPqROjZFcWbEox6sqg.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1283,
+              "originalHeight": 479,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 43,
+              "focusPercentY": 51
+            },
+            "wordCount": 863,
+            "imageCount": 18,
+            "readingTime": 4.906603773584905,
+            "subtitle": "Landing Page for MCS Lite",
+            "usersBySocialRecommends": [],
+            "recommends": 33,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mediatek",
+                "name": "Mediatek",
+                "postCount": 44,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 3,
+                  "postCount": 44,
+                  "coverImage": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "netlify",
+                "name": "Netlify",
+                "postCount": 11,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 3,
+                  "postCount": 11,
+                  "coverImage": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "progressive-web-app",
+                "name": "Progressive Web App",
+                "postCount": 429,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 1084,
+                  "postCount": 429,
+                  "coverImage": {
+                    "id": "1*H3Ri9HkREcjujxPiUv9xFw.jpeg",
+                    "originalWidth": 706,
+                    "originalHeight": 422
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://mcslite.netlify.com",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://pwa-directory.appspot.com/pwas/5165927551205376",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite/tree/master/packages/mcs-lite-landing-web",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/evenchange4/react-progressive-bg-image",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/i18n-workflow-for-react-project-9f9ff8fe9aef",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/9f9ff8fe9aef"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/9f9ff8fe9aef"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/component-based-code-splitting-70aeebbb2dc7",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/70aeebbb2dc7"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/70aeebbb2dc7"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/reproducing-medium-style-progressive-image-loading-for-react-2e83bba0c608",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/2e83bba0c608"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/2e83bba0c608"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/erikras/react-redux-universal-hot-example",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@paularmstrong/twitter-lite-and-high-performance-react-progressive-web-apps-at-scale-d28a00e780a3",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/d28a00e780a3"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/d28a00e780a3"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://stripe.com/blog/connect-front-end-experience",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/build-a-web-app-in-mediatek-61b0a26215a0",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/61b0a26215a0"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/61b0a26215a0"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@addyosmani/progressive-web-apps-with-react-js-part-2-page-load-performance-33b932d97cf2",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/33b932d97cf2"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/33b932d97cf2"
+                    }
+                  ],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1499680357187
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "簡單的頁面也可以用 React 進行開發，本篇文章即是針對此方向分成兩個部分來討論： PART I. React Stack 開發體驗與推薦工具 PART II. 效能評估與優化策略。降低 First Meaningful Paint 所需的封包大小，加速顯示較重要的資訊，並且透過 Lazyloadable 來達到緩載入 Offscreen JS Chunk 的目的，並且使用評估分數的指標來檢..",
+            "totalClapCount": 34,
+            "sectionCount": 3
+          },
+          "coverless": true,
+          "slug": "react-stack-開發體驗與優化策略",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": false,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "react-stack-開發體驗與優化策略-b056da2fa0aa",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                {
+                  "name": "225f",
+                  "type": 3,
+                  "text": "React Stack 開發體驗與優化策略",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "47f2",
+                  "type": 13,
+                  "text": "Landing Page for MCS Lite",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "70aeebbb2dc7": {
+          "id": "70aeebbb2dc7",
+          "versionId": "e9629bfa39d9",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Component-based Code Splitting",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "e9629bfa39d9",
+          "latestPublishedVersion": "e9629bfa39d9",
+          "hasUnpublishedEdits": false,
+          "latestRev": 814,
+          "createdAt": 1495679843906,
+          "updatedAt": 1500651808870,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1495693600421,
+          "latestPublishedAt": 1495693779746,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Lazy Load React Component with React-Loadable",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*7yJbMiqX5-YABvWLWO0YfA.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2180,
+              "originalHeight": 602,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 76,
+              "focusPercentY": 73
+            },
+            "wordCount": 219,
+            "imageCount": 5,
+            "readingTime": 1.6597484276729562,
+            "subtitle": "Lazy Load React Component with React-Loadable",
+            "usersBySocialRecommends": [],
+            "recommends": 20,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "webpack-2",
+                "name": "Webpack 2",
+                "postCount": 141,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 207,
+                  "postCount": 141,
+                  "coverImage": {
+                    "id": "1*nZO9iDlZ_9BjFosw2qCXDQ.png",
+                    "originalWidth": 1491,
+                    "originalHeight": 1202,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite/pull/327",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://twitter.com/thejameskyle",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/build-a-web-app-in-mediatek-61b0a26215a0",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/61b0a26215a0"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/61b0a26215a0"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@thejameskyle/react-loadable-2674c59de178",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/2674c59de178"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/2674c59de178"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/facebookincubator/create-react-app/releases/tag/v1.0.0",
+                  "alts": [],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1495693779989
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 21,
+            "sectionCount": 2
+          },
+          "coverless": true,
+          "slug": "component-based-code-splitting",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "component-based-code-splitting-70aeebbb2dc7",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*7yJbMiqX5-YABvWLWO0YfA.png",
+                    "originalWidth": 2180,
+                    "originalHeight": 602,
+                    "isFeatured": true,
+                    "focusPercentX": 76,
+                    "focusPercentY": 73
+                  }
+                },
+                {
+                  "name": "bfe9",
+                  "type": 3,
+                  "text": "Component-based Code Splitting",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "cd84",
+                  "type": 13,
+                  "text": "Lazy Load React Component with React-Loadable",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "9330c1245ec1": {
+          "id": "9330c1245ec1",
+          "versionId": "dc4dadd3e938",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "這個雷踩了四次，為什麼你可能需要 Eslint",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "dc4dadd3e938",
+          "latestPublishedVersion": "dc4dadd3e938",
+          "hasUnpublishedEdits": false,
+          "latestRev": 379,
+          "createdAt": 1494412232208,
+          "updatedAt": 1501491755288,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1494422818494,
+          "latestPublishedAt": 1494423003098,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "以一個簡單到不行的大小寫為例，不單只是 Coding Style 或命名規範，你可能會需要 Eslint 來幫你盡量降低這種小意外的發生。",
+            "postDisplay": {
+              "coverless": true
+            },
+            "metaDescription": "差別在於 Filesystem 的 Case-semantic。如果你有注意到的話，Filename buttonComponent.js 與引用的 ButtonComponent 不一致，雖然在 Mac 的環境會查詢到這個檔名，但是在 Linux 環境則是 Case sensitive，因此就會噴錯。事實上在 Webpack Build 的過程就已經偷偷地警告過你： 讓我們來看一…"
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*V-Qu-cpHqr-gDROqlevX4A.jpeg",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2048,
+              "originalHeight": 1365,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 63,
+              "focusPercentY": 28
+            },
+            "wordCount": 111,
+            "imageCount": 4,
+            "readingTime": 1.1188679245283017,
+            "subtitle": "以一個簡單到不行的大小寫為例，不單只是 Coding Style 或命名規範，你可能會需要 Eslint 來幫你盡量降低這種小意外的發生。",
+            "usersBySocialRecommends": [],
+            "recommends": 7,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "eslint",
+                "name": "Eslint",
+                "postCount": 137,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 54,
+                  "postCount": 137,
+                  "coverImage": {
+                    "id": "1*-zy49yrWT0CHwkJpy56srg.jpeg",
+                    "originalWidth": 7003,
+                    "originalHeight": 4674,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "javascript",
+                "name": "JavaScript",
+                "postCount": 38126,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 38023,
+                  "postCount": 38126,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://medium.com/@evenchange4/introducing-prettier-with-eslint-13f567ae0184",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/13f567ae0184"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/13f567ae0184"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://twitter.com/FunnyAsianDude/status/861395252896088065/photo/1",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-unresolved.md",
+                  "alts": [],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1494423003548
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "差別在於 Filesystem 的 Case-semantic。如果你有注意到的話，Filename buttonComponent.js 與引用的 ButtonComponent 不一致，雖然在 Mac 的環境會查詢到這個檔名，但是在 Linux 環境則是 Case sensitive，因此就會噴錯。事實上在 Webpack Build 的過程就已經偷偷地警告過你： 讓我們來看一…",
+            "totalClapCount": 7,
+            "sectionCount": 1
+          },
+          "coverless": true,
+          "slug": "這個雷踩了四次-為什麼你可能需要-eslint",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": false,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "這個雷踩了四次-為什麼你可能需要-eslint-9330c1245ec1",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*V-Qu-cpHqr-gDROqlevX4A.jpeg",
+                    "originalWidth": 2048,
+                    "originalHeight": 1365,
+                    "isFeatured": true,
+                    "focusPercentX": 63,
+                    "focusPercentY": 28
+                  }
+                },
+                {
+                  "name": "883b",
+                  "type": 3,
+                  "text": "這個雷踩了四次，為什麼你可能需要 Eslint",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "aaec",
+                  "type": 13,
+                  "text": "以一個簡單到不行的大小寫為例",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "2e83bba0c608": {
+          "id": "2e83bba0c608",
+          "versionId": "43a2813e07b7",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Reproducing Medium Style Progressive Image Loading for React",
+          "detectedLanguage": "en",
+          "latestVersion": "43a2813e07b7",
+          "latestPublishedVersion": "43a2813e07b7",
+          "hasUnpublishedEdits": false,
+          "latestRev": 327,
+          "createdAt": 1493904293182,
+          "updatedAt": 1501145571134,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1493908671942,
+          "latestPublishedAt": 1493908885758,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Recently, I have read an article by José M. Pérez about How Medium does progressive image loading, and that is what I need about the lazy…",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*qiFC3tA3hgN8IfLbYsSKgA.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2350,
+              "originalHeight": 1250,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 66,
+              "focusPercentY": 28
+            },
+            "wordCount": 629,
+            "imageCount": 1,
+            "readingTime": 2.5735849056603777,
+            "subtitle": "Recently, I have read an article by José M. Pérez about How Medium does progressive image loading, and that is what I need about the lazy…",
+            "usersBySocialRecommends": [],
+            "recommends": 13,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "javascript",
+                "name": "JavaScript",
+                "postCount": 38126,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 38023,
+                  "postCount": 38126,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "recompose",
+                "name": "Recompose",
+                "postCount": 16,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 12,
+                  "postCount": 16,
+                  "coverImage": {
+                    "id": "1*qiFC3tA3hgN8IfLbYsSKgA.png",
+                    "originalWidth": 2350,
+                    "originalHeight": 1250,
+                    "isFeatured": true,
+                    "focusPercentX": 66,
+                    "focusPercentY": 28
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "styled-components",
+                "name": "Styled Components",
+                "postCount": 47,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 71,
+                  "postCount": 47,
+                  "coverImage": {
+                    "id": "1*6CI0TvS-uP37tMvbFj57PA.jpeg",
+                    "originalWidth": 1280,
+                    "originalHeight": 640
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "reactive-programming",
+                "name": "Reactive Programming",
+                "postCount": 360,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 901,
+                  "postCount": 360,
+                  "coverImage": {
+                    "id": "1*i8d0WlTwViNNn4xiOGdLHQ.jpeg",
+                    "originalWidth": 1800,
+                    "originalHeight": 1120
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://github.com/FormidableLabs/react-progressive-image/issues/2",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://www.youtube.com/watch?v=S70xyRYCNdY",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=S70xyRYCNdY&feature=applinks"
+                    },
+                    {
+                      "type": 3,
+                      "url": "vnd.youtube://www.youtube.com/watch?v=S70xyRYCNdY&feature=applinks"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/evenchange4/react-progressive-bg-image/blob/master/src/__tests__/ProgressiveImage.test.js#L10-L17",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://jmperezperez.com/medium-image-progressive-loading-placeholder/",
+                  "alts": [
+                    {
+                      "type": 1,
+                      "url": "https://cdn.ampproject.org/c/s/jmperezperez.com/medium-image-progressive-loading-placeholder/amp/"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/evenchange4/react-progressive-bg-image",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://styled-components.com/",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://jmperezperez.com/more-progressive-image-loading/",
+                  "alts": [
+                    {
+                      "type": 1,
+                      "url": "https://cdn.ampproject.org/c/s/jmperezperez.com/more-progressive-image-loading/amp/"
+                    }
+                  ],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1493908886092
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 13,
+            "sectionCount": 3
+          },
+          "coverless": true,
+          "slug": "reproducing-medium-style-progressive-image-loading-for-react",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "reproducing-medium-style-progressive-image-loading-for-react-2e83bba0c608",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*qiFC3tA3hgN8IfLbYsSKgA.png",
+                    "originalWidth": 2350,
+                    "originalHeight": 1250,
+                    "isFeatured": true,
+                    "focusPercentX": 66,
+                    "focusPercentY": 28
+                  }
+                },
+                {
+                  "name": "4fb8",
+                  "type": 3,
+                  "text": "Reproducing Medium Style Progressive Image Loading for React",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": false,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "61b0a26215a0": {
+          "id": "61b0a26215a0",
+          "versionId": "65e01a73dc6c",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Build A Web App in MediaTek",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "65e01a73dc6c",
+          "latestPublishedVersion": "65e01a73dc6c",
+          "hasUnpublishedEdits": false,
+          "latestRev": 6946,
+          "createdAt": 1487941712422,
+          "updatedAt": 1502104016925,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1493193304597,
+          "latestPublishedAt": 1501126124357,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "MCS Lite’s Front-End Tech Stack for Mobile",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*vMVubJN-PO3KNSx7dWIi6w.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 2900,
+              "originalHeight": 1600,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 49,
+              "focusPercentY": 50
+            },
+            "wordCount": 734,
+            "imageCount": 15,
+            "readingTime": 4.269811320754717,
+            "subtitle": "MCS Lite’s Front-End Tech Stack for Mobile",
+            "usersBySocialRecommends": [],
+            "recommends": 38,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "styled-components",
+                "name": "Styled Components",
+                "postCount": 47,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 71,
+                  "postCount": 47,
+                  "coverImage": {
+                    "id": "1*6CI0TvS-uP37tMvbFj57PA.jpeg",
+                    "originalWidth": 1280,
+                    "originalHeight": 640
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "create-react-app",
+                "name": "Create React App",
+                "postCount": 100,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 64,
+                  "postCount": 100,
+                  "coverImage": {
+                    "id": "1*OlIRsvVO5aK7ja9HmwXz_Q.gif",
+                    "originalWidth": 493,
+                    "originalHeight": 230,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "iot",
+                "name": "IoT",
+                "postCount": 10390,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 2970,
+                  "postCount": 10390,
+                  "coverImage": {
+                    "id": "1*EUbadzBBmQzG8G6n9MSojw.jpeg",
+                    "originalWidth": 1000,
+                    "originalHeight": 500,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mediatek",
+                "name": "Mediatek",
+                "postCount": 44,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 3,
+                  "postCount": 44,
+                  "coverImage": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [
+                {
+                  "url": "https://cycle.js.org/drivers.html#drivers-plugins-for-effects-why-the-name-driver",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/facebook/jest/blob/master/dangerfile.js#L77",
+                  "alts": [],
+                  "httpStatus": 404
+                },
+                {
+                  "url": "http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-concatMap",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "http://reactivex.io/rxjs/class/es6/Observable.js~Observable.html#instance-method-mergeMap",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/refactoring-react-component-in-reactive-way-52a64fb6d70b",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/52a64fb6d70b"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/52a64fb6d70b"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/styled-components/styled-components/blob/master/docs/tagged-template-literals.md",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "http://nick.balestra.ch/talk/redux-cycles/#/",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/styled-components/styled-components",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.com/@evenchange4/introducing-prettier-with-eslint-13f567ae0184",
+                  "alts": [
+                    {
+                      "type": 3,
+                      "url": "medium://p/13f567ae0184"
+                    },
+                    {
+                      "type": 2,
+                      "url": "medium://p/13f567ae0184"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/ReactiveX/rxjs/blob/master/doc/writing-marble-tests.md",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/erikras/ducks-modular-redux",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite-app/blob/92252e883dcdf4bea3dfc25acf7f9cec091047a6/client/app/components/dataChannelCards/common/wrapper/index.js#L30-L35",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/cyclejs-community/redux-cycles#what-does-this-look-like",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/lerna/lerna",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://twitter.com/orta/status/854556350864650240",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "twitter://status?id=854556350864650240"
+                    },
+                    {
+                      "type": 3,
+                      "url": "twitter://status?status_id=854556350864650240"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/MCS-Lite/mcs-lite",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://github.com/cyclejs-community/redux-cycles",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.freecodecamp.com/how-to-make-your-react-app-fully-functional-fully-reactive-and-able-to-handle-all-those-crazy-e5da8e7dac10#.w0524rh38",
+                  "alts": [
+                    {
+                      "type": 2,
+                      "url": "medium://p/e5da8e7dac10"
+                    },
+                    {
+                      "type": 3,
+                      "url": "medium://p/e5da8e7dac10"
+                    }
+                  ],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://medium.freecodecamp.com/@lmatteis?source=post_header_lockup",
+                  "alts": [],
+                  "httpStatus": 200
+                },
+                {
+                  "url": "https://mcs.mediatek.com",
+                  "alts": [],
+                  "httpStatus": 200
+                }
+              ],
+              "version": "0.3",
+              "generatedAt": 1501126126620
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 39,
+            "sectionCount": 7
+          },
+          "coverless": true,
+          "slug": "build-a-web-app-in-mediatek",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "build-a-web-app-in-mediatek-61b0a26215a0",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "bef6",
+                  "type": 3,
+                  "text": "Build A Web App in MediaTek",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "bc5b",
+                  "type": 13,
+                  "text": "MCS Lite’s Front-End Tech Stack for Mobile",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "60b9",
+                  "type": 4,
+                  "text": "",
+                  "markups": [],
+                  "layout": 9,
+                  "metadata": {
+                    "id": "1*vMVubJN-PO3KNSx7dWIi6w.png",
+                    "originalWidth": 2900,
+                    "originalHeight": 1600,
+                    "focusPercentX": 49,
+                    "focusPercentY": 50
+                  }
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "9e562d28e17": {
+          "id": "9e562d28e17",
+          "versionId": "d40c15cd3f21",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Writing a Library for LinkIt 7697",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "d40c15cd3f21",
+          "latestPublishedVersion": "d40c15cd3f21",
+          "hasUnpublishedEdits": false,
+          "latestRev": 1000,
+          "createdAt": 1493024457559,
+          "updatedAt": 1494514540173,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1493083372209,
+          "latestPublishedAt": 1493083372209,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "開發板の隨手筆記 - 封裝 MCS API for Arduino",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*QriekTKtdyjI7NWr4wXNkQ.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1685,
+              "originalHeight": 991,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 35,
+              "focusPercentY": 46
+            },
+            "wordCount": 219,
+            "imageCount": 4,
+            "readingTime": 1.5264150943396226,
+            "subtitle": "開發板の隨手筆記 - 封裝 MCS API for Arduino",
+            "usersBySocialRecommends": [],
+            "recommends": 2,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "arduino",
+                "name": "Arduino",
+                "postCount": 1972,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 808,
+                  "postCount": 1972,
+                  "coverImage": {
+                    "id": "1*onUqSNXOFWa4NdqMxXQMSQ.jpeg",
+                    "originalWidth": 900,
+                    "originalHeight": 675,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "mediatek",
+                "name": "Mediatek",
+                "postCount": 44,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 3,
+                  "postCount": 44,
+                  "coverImage": {
+                    "id": "1*_m9YLPqROjZFcWbEox6sqg.png",
+                    "originalWidth": 1283,
+                    "originalHeight": 479,
+                    "isFeatured": true,
+                    "focusPercentX": 43,
+                    "focusPercentY": 51
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1493083375286
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 2,
+            "sectionCount": 5
+          },
+          "coverless": true,
+          "slug": "writing-a-library-for-linkit-7697",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "writing-a-library-for-linkit-7697-9e562d28e17",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*QriekTKtdyjI7NWr4wXNkQ.png",
+                    "originalWidth": 1685,
+                    "originalHeight": 991,
+                    "isFeatured": true,
+                    "focusPercentX": 35,
+                    "focusPercentY": 46
+                  }
+                },
+                {
+                  "name": "196f",
+                  "type": 3,
+                  "text": "Writing a Library for LinkIt 7697",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "004f",
+                  "type": 13,
+                  "text": "開發板の隨手筆記 - 封裝 MCS API for Arduino",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "9f9ff8fe9aef": {
+          "id": "9f9ff8fe9aef",
+          "versionId": "fefe88787bad",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "I18n Workflow for React Project",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "fefe88787bad",
+          "latestPublishedVersion": "fefe88787bad",
+          "hasUnpublishedEdits": false,
+          "latestRev": 463,
+          "createdAt": 1492674178359,
+          "updatedAt": 1502091407846,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1492745328047,
+          "latestPublishedAt": 1492745382081,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "多國語言的機制建議盡量在專案初期就能有好的規劃，不至中後期要把字串抽出將會是件累人的事，而在現今前端開發的演進下，多國語言的流程也出現了一些不同的處理方式，以下簡介我們在 MediaTek 內前端專案處理的模式。",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*pqqdxYjj9f976hm1qmm_LA.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 3108,
+              "originalHeight": 326,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 40,
+              "focusPercentY": 52
+            },
+            "wordCount": 213,
+            "imageCount": 2,
+            "readingTime": 1.1871069182389937,
+            "subtitle": "多國語言的機制建議盡量在專案初期就能有好的規劃，不至中後期要把字串抽出將會是件累人的事，而在現今前端開發的演進下，多國語言的流程也出現了一些不同的處理方式，以下簡介我們在 MediaTek 內前端專案處理的模式。",
+            "usersBySocialRecommends": [],
+            "recommends": 7,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "react",
+                "name": "React",
+                "postCount": 8689,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 16218,
+                  "postCount": 8689,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "i18n",
+                "name": "I18n",
+                "postCount": 105,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 10,
+                  "postCount": 105,
+                  "coverImage": {
+                    "id": "1*BCplFE720Xb4bn3sfETqZA.gif",
+                    "originalWidth": 500,
+                    "originalHeight": 206,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 1,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1492745382361
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 7,
+            "sectionCount": 4
+          },
+          "coverless": true,
+          "slug": "i18n-workflow-for-react-project",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "i18n-workflow-for-react-project-9f9ff8fe9aef",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*pqqdxYjj9f976hm1qmm_LA.png",
+                    "originalWidth": 3108,
+                    "originalHeight": 326,
+                    "isFeatured": true,
+                    "focusPercentX": 40,
+                    "focusPercentY": 52
+                  }
+                },
+                {
+                  "name": "e6cc",
+                  "type": 3,
+                  "text": "I18n Workflow for React Project",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "9507",
+                  "type": 1,
+                  "text": "多國語言的機制建議盡量在專案初期就能有好的規劃，不至中後期要把字串抽出將會是件累人的事，而在現今前端開發的演進下，多國語言的流程也出現了一些不同的處理方式，以下簡介我們在 MediaTek 內前端專案處理的…",
+                  "markups": [],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        },
+        "13f567ae0184": {
+          "id": "13f567ae0184",
+          "versionId": "a4deb82460e7",
+          "creatorId": "aa88256220c4",
+          "homeCollectionId": "",
+          "title": "Introducing Prettier with Eslint",
+          "detectedLanguage": "zh-Hant",
+          "latestVersion": "a4deb82460e7",
+          "latestPublishedVersion": "a4deb82460e7",
+          "hasUnpublishedEdits": false,
+          "latestRev": 447,
+          "createdAt": 1492583384880,
+          "updatedAt": 1501264734071,
+          "acceptedAt": 0,
+          "firstPublishedAt": 1492590593069,
+          "latestPublishedAt": 1493190528373,
+          "vote": false,
+          "experimentalCss": "",
+          "displayAuthor": "",
+          "content": {
+            "subtitle": "Prettier v1.0.0 就在四月初已經正式釋出，等同宣稱在 Production 環境也可安心穩定地使用了，也是時候考慮導入至專案中囉。在專案的導入順序我想應該會是 Prettier 再來才是 Eslint 的設定，兩者是可以並存的，以下以我覺得的導入順序做介紹。",
+            "postDisplay": {
+              "coverless": true
+            }
+          },
+          "virtuals": {
+            "allowNotes": true,
+            "previewImage": {
+              "imageId": "1*KxQ_q--OFqMT1Fcpb-3SCA.png",
+              "filter": "",
+              "backgroundSize": "",
+              "originalWidth": 1868,
+              "originalHeight": 536,
+              "strategy": "resample",
+              "height": 0,
+              "width": 0,
+              "focusPercentX": 61,
+              "focusPercentY": 73
+            },
+            "wordCount": 242,
+            "imageCount": 2,
+            "readingTime": 1.2965408805031446,
+            "subtitle": "Prettier v1.0.0 就在四月初已經正式釋出，等同宣稱在 Production 環境也可安心穩定地使用了，也是時候考慮導入至專案中囉。在專案的導入順序我想應該會是 Prettier 再來才是 Eslint 的設定，兩者是可以並存的，以下以我覺得的導入順序做介紹。",
+            "usersBySocialRecommends": [],
+            "recommends": 6,
+            "isBookmarked": false,
+            "tags": [
+              {
+                "slug": "eslint",
+                "name": "Eslint",
+                "postCount": 137,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 54,
+                  "postCount": 137,
+                  "coverImage": {
+                    "id": "1*-zy49yrWT0CHwkJpy56srg.jpeg",
+                    "originalWidth": 7003,
+                    "originalHeight": 4674,
+                    "isFeatured": true
+                  }
+                },
+                "type": "Tag"
+              },
+              {
+                "slug": "javascript",
+                "name": "JavaScript",
+                "postCount": 38126,
+                "virtuals": {
+                  "isFollowing": false
+                },
+                "metadata": {
+                  "followerCount": 38023,
+                  "postCount": 38126,
+                  "coverImage": {
+                    "id": "1*v6EdE1Fqm73BIaYgpM46_g.png",
+                    "originalWidth": 1000,
+                    "originalHeight": 400
+                  }
+                },
+                "type": "Tag"
+              }
+            ],
+            "socialRecommendsCount": 0,
+            "responsesCreatedCount": 0,
+            "links": {
+              "entries": [],
+              "version": "0.3",
+              "generatedAt": 1493190529136
+            },
+            "isLockedPreviewOnly": false,
+            "takeoverId": "",
+            "metaDescription": "",
+            "totalClapCount": 6,
+            "sectionCount": 5
+          },
+          "coverless": true,
+          "slug": "introducing-prettier-with-eslint",
+          "translationSourcePostId": "",
+          "translationSourceCreatorId": "",
+          "isApprovedTranslation": false,
+          "inResponseToPostId": "",
+          "inResponseToRemovedAt": 0,
+          "isTitleSynthesized": true,
+          "allowResponses": true,
+          "importedUrl": "",
+          "importedPublishedAt": 0,
+          "visibility": 0,
+          "uniqueSlug": "introducing-prettier-with-eslint-13f567ae0184",
+          "previewContent": {
+            "bodyModel": {
+              "paragraphs": [
+                {
+                  "name": "previewImage",
+                  "type": 4,
+                  "text": "",
+                  "layout": 10,
+                  "metadata": {
+                    "id": "1*KxQ_q--OFqMT1Fcpb-3SCA.png",
+                    "originalWidth": 1868,
+                    "originalHeight": 536,
+                    "isFeatured": true,
+                    "focusPercentX": 61,
+                    "focusPercentY": 73
+                  }
+                },
+                {
+                  "name": "a941",
+                  "type": 3,
+                  "text": "Introducing Prettier with Eslint",
+                  "markups": [],
+                  "alignment": 1
+                },
+                {
+                  "name": "a754",
+                  "type": 1,
+                  "text": "Prettier v1.0.0 就在四月初已經正式釋出，等同宣稱在 Production 環境也可安心穩定地使用了，也是時候考慮導入至專案中囉。在專案的導入順序我想應該會是 Prettier 再來才…",
+                  "markups": [
+                    {
+                      "type": 10,
+                      "start": 9,
+                      "end": 15
+                    }
+                  ],
+                  "alignment": 1
+                }
+              ],
+              "sections": [
+                {
+                  "startIndex": 0
+                }
+              ]
+            },
+            "isFullContent": false
+          },
+          "license": 0,
+          "inResponseToMediaResourceId": "",
+          "canonicalUrl": "",
+          "approvedHomeCollectionId": "",
+          "newsletterId": "",
+          "webCanonicalUrl": "",
+          "mediumUrl": "",
+          "migrationId": "",
+          "notifyFollowers": true,
+          "notifyTwitter": true,
+          "isSponsored": false,
+          "isRequestToPubDisabled": false,
+          "notifyFacebook": false,
+          "responseHiddenOnParentPostAt": 0,
+          "isSeries": false,
+          "isSubscriptionLocked": false,
+          "seriesLastAppendedAt": 0,
+          "audioVersionDurationSec": 0,
+          "sequenceId": "",
+          "isNsfw": false,
+          "premiumTier": 1,
+          "isEligibleForRevenue": false,
+          "type": "Post"
+        }
+      },
+      "Social": {
+        "aa88256220c4": {
+          "userId": "lo_ab57cb667f61",
+          "targetUserId": "aa88256220c4",
+          "type": "Social"
+        }
+      },
+      "SocialStats": {
+        "aa88256220c4": {
+          "userId": "aa88256220c4",
+          "usersFollowedCount": 93,
+          "usersFollowedByCount": 114,
+          "type": "SocialStats"
+        }
+      }
+    },
+    "paging": {
+      "path": "https://medium.com/_/api/users/aa88256220c4/profile/stream",
+      "next": {
+        "limit": 10,
+        "to": "1492590593069",
+        "source": "latest",
+        "page": 1
+      }
+    }
+  },
+  "v": 3,
+  "b": "30110-4efad95"
+}

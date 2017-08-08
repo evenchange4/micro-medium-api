@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return simplify list 1`] = `
+Array [
+  Object {
+    "title": "使用 CircleCI 2.0 Workflows 挑戰三倍速",
+    "updatedAt": 1501469016352,
+    "url": "https://medium.com/@username/使用-circleci-2-0-workflows-挑戰三倍速-9691e54b0ef0",
+  },
+  Object {
+    "title": "Centralized Error Handle in React with RxJS",
+    "updatedAt": 1501559328163,
+    "url": "https://medium.com/@username/centralized-error-handle-in-react-with-rxjs-fac9e9e37e44",
+  },
+  Object {
+    "title": "React Stack 開發體驗與優化策略",
+    "updatedAt": 1502118302072,
+    "url": "https://medium.com/@username/react-stack-開發體驗與優化策略-b056da2fa0aa",
+  },
+  Object {
+    "title": "Component-based Code Splitting",
+    "updatedAt": 1500651808870,
+    "url": "https://medium.com/@username/component-based-code-splitting-70aeebbb2dc7",
+  },
+  Object {
+    "title": "這個雷踩了四次，為什麼你可能需要 Eslint",
+    "updatedAt": 1501491755288,
+    "url": "https://medium.com/@username/這個雷踩了四次-為什麼你可能需要-eslint-9330c1245ec1",
+  },
+  Object {
+    "title": "Reproducing Medium Style Progressive Image Loading for React",
+    "updatedAt": 1501145571134,
+    "url": "https://medium.com/@username/reproducing-medium-style-progressive-image-loading-for-react-2e83bba0c608",
+  },
+  Object {
+    "title": "Build A Web App in MediaTek",
+    "updatedAt": 1502104016925,
+    "url": "https://medium.com/@username/build-a-web-app-in-mediatek-61b0a26215a0",
+  },
+  Object {
+    "title": "Writing a Library for LinkIt 7697",
+    "updatedAt": 1494514540173,
+    "url": "https://medium.com/@username/writing-a-library-for-linkit-7697-9e562d28e17",
+  },
+  Object {
+    "title": "I18n Workflow for React Project",
+    "updatedAt": 1502091407846,
+    "url": "https://medium.com/@username/i18n-workflow-for-react-project-9f9ff8fe9aef",
+  },
+  Object {
+    "title": "Introducing Prettier with Eslint",
+    "updatedAt": 1501264734071,
+    "url": "https://medium.com/@username/introducing-prettier-with-eslint-13f567ae0184",
+  },
+]
+`;

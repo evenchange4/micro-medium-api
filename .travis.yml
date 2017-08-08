@@ -15,9 +15,11 @@ before_install:
 
 script:
   - yarn run eslint
+  - yarn run test
   - yarn run pkg
 
 after_success:
+  - ./node_modules/.bin/codecov
   - |
     if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
       ./tasks/deploy.sh

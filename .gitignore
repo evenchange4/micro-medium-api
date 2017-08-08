@@ -1,2 +1,8 @@
-node_modules/
-pkg/
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/pkg
