@@ -45,21 +45,27 @@ $ docker run --rm -it \
 
 ## API
 
-### Environment Variables
+### Environment variables
 
 | **ENV**   | **Required**  | **Default**  | **Description** |
 | --------- | --------- | --------- | --------- |
 | `ORIGIN`  |  | `*` | Setup `access-control-allow-origin` for CORS. |
 
-### CLI Arguments
+### CLI arguments
 
-|    | **Required**  | **Default**  | **Description** |
+| **Argument** | **Required**  | **Default**  | **Description** |
 | --------- | --------- | --------- | --------- |
 | First  |  | `3000` | PORT |
 
+### URL pathname
+
+| *Method** | *Pathname** | **Description** |
+| --------- | --------- | --------- |
+| GET | `/@:username/posts` | Latest posts |
+
 ### URL query parameters
 
-| **query**   | **Required**  | **Default**  | **Description** |
+| **Query**   | **Required**  | **Default**  | **Description** |
 | --------- | --------- | --------- | --------- |
 | `limit`  |  | `10` | Medium API |
 | `type`  |  |  | A simple array returned if set the value to `simple`. |
@@ -86,6 +92,15 @@ https://micro-medium-api.now.sh/@evenchange4/posts?limit=100&type=simple
 -   node >= 8.2.1
 -   npm >= 5.3.0
 -   yarn >= 0.27.5
+
+```
+$ git clone https://github.com/evenchange4/micro-medium-api.git
+$ yarn install --pure-lockfile
+
+$ yarn run dev # dev server
+$ yarn start   # prod server
+$ yarn run pkg # output binary files
+```
 
 ### Test
 
