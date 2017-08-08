@@ -11,7 +11,9 @@
 [![devDependency Status][devDependency-badge]][devDependency]
 [![peerDependency Status][peerDependency-badge]][peerDependency]
 [![Greenkeeper badge][greenkeeper-badge]][greenkeeper]
+[![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
+
 
 ## How To Use
 
@@ -150,3 +152,5 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [dockerhub-auto-badge]: https://img.shields.io/docker/automated/evenchange4/micro-medium-api.svg
 [dockerhub-badge]: https://img.shields.io/docker/build/evenchange4/micro-medium-api.svg
 [dockerhub]: https://hub.docker.com/r/evenchange4/micro-medium-api/
+[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
+[prettier]: https://github.com/prettier/prettier
