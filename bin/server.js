@@ -1,3 +1,13 @@
+/**
+ * This is for pkg binary file.
+ *
+ * example:
+ *
+ * $ ./micro-medium-api 3001
+ *
+ * @author Michael Hsu
+ */
+
 const micro = require('micro');
 const main = require('../src/index');
 

@@ -3,6 +3,8 @@
 ## [HEAD]
 > Unreleased
 
+* feat(docker): add dockerfile & auto build
+
 ## [v1.0.1]
 > Aug 08, 2017
 
