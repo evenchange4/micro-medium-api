@@ -14,4 +14,5 @@ it('should run server without error', async () => {
   }
 
   expect(error).toBeUndefined();
+  service.close();
 });
