@@ -3,7 +3,7 @@
 set -e
 
 # Arguments
-ORIGIN='michaelhsu.tw'
+ORIGIN='https://michaelhsu.tw'
 ALIAS='micro-medium-api-michaelhsutw.now.sh'
 # Project config
 TEAM=medium-api-prod
