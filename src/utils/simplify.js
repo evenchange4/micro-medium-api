@@ -1,6 +1,7 @@
 const R = require('ramda');
+const { BASE_URL } = require('./constants');
 
-const simplify = (baseURL, username) =>
+const simplify = username =>
   R.pipe(
     R.path(['payload', 'references', 'Post']),
     R.values,
@@ -8,7 +9,7 @@ const simplify = (baseURL, username) =>
     R.map(e => ({
       title: e.title,
       updatedAt: e.updatedAt,
-      url: `${baseURL}/@${username}/${e.uniqueSlug}`,
+      url: `${BASE_URL}/@${username}/${e.uniqueSlug}`,
     })),
   );
 

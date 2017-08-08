@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return constants 1`] = `
+Object {
+  "BASE_URL": "https://medium.com",
+}
+`;

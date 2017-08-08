@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return API getPosts 1`] = `
+Object {
+  "options": Object {
+    "baseURL": "https://medium.com",
+    "method": "get",
+    "responseType": "text",
+  },
+  "url": "@username/latest?format=json",
+}
+`;
