@@ -29,7 +29,7 @@ Download from GitHub [latest release](https://github.com/evenchange4/micro-mediu
 $ ORIGIN=$YOUR_DOMAIN ./micro-medium-api-macos $PORT
 ```
 
-> Note: Run it without Node.js installed.
+> Note: You can run it without Node.js installed.
 
 ### c. Docker image
 
@@ -38,8 +38,8 @@ Pull from [dockerhub][dockerhub].
 ```
 $ docker pull evenchange4/micro-medium-api:latest
 $ docker run --rm -it \
-  -p 3000:3000 \
-  -e "ORIGIN=DOMAIN" \
+  -p $PORT:3000 \
+  -e "ORIGIN=YOUR_DOMAIN" \
   evenchange4/micro-medium-api:latest
 ```
 

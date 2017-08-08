@@ -3,6 +3,9 @@
 ## [HEAD]
 > Unreleased
 
+## [v1.0.2]
+> Aug 08, 2017
+
 * feat(docker): add dockerfile & auto build
 * test: add jest
 
