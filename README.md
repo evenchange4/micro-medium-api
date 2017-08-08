@@ -43,6 +43,12 @@ $ docker run --rm -it \
   evenchange4/micro-medium-api:latest
 ```
 
+## Environment Variables
+
+| **ENV**   | **Required**  | **Default**  | **Description** |
+| --------- | --------- | --------- | --------- |
+| `ORIGIN`  |  | `*` | Setup `access-control-allow-origin` for CORS. |
+
 ## Demo
 
 https://micro-medium-api.now.sh/@evenchange4/posts?type=simple
@@ -82,6 +88,18 @@ $ docker build -t mirco-medium-api .
 # Push to dockerhub
 $ git push
 ```
+
+## CONTRIBUTING
+
+*   ⇄ Pull requests and ★ Stars are always welcome.
+*   For bugs and feature requests, please create an issue.
+*   Pull requests must be accompanied by passing automated tests (`$ yarn run test`).
+
+## [CHANGELOG](CHANGELOG.md)
+
+## [LICENSE](LICENSE)
+
+MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 
 [travis-badge]: https://img.shields.io/travis/evenchange4/micro-medium-api/master.svg?style=flat-square
 [travis]: https://travis-ci.org/evenchange4/micro-medium-api
