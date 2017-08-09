@@ -61,9 +61,9 @@ $ docker run --rm -it \
 
 ### URL pathname
 
-| *Method** | *Pathname** | **Description** |
+| **Method** | **Pathname** | **Description** |
 | --------- | --------- | --------- |
-| GET | `/@:username/posts` | Latest posts |
+| GET | `/@:username/posts` | Latest post list as json format. |
 
 ### URL query parameters
 
