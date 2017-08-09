@@ -3,7 +3,12 @@
 exports[`should return home 1`] = `
 Object {
   "code": 200,
-  "content": "Please try /@:username/posts?limit=100",
+  "content": "
+    Please try
+
+    /@:username/posts
+    /@:username/posts?limit=100&type=simple
+",
   "res": undefined,
 }
 `;

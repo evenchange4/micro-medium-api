@@ -2,31 +2,32 @@
 
 set -ex
 
-# Arguments
+# ENV Variables, Note: NOW_TOKEN in travisCI
 ORIGIN='https://michaelhsu.tw'
+# NOW config
+TEAM='medium-api-prod'
+PROJECT='micro-medium-api'
 ALIAS='micro-medium-api-michaelhsutw.now.sh'
-# Project config
-TEAM=medium-api-prod
 
-alias now="node_modules/.bin/now"
-alias now-purge="node_modules/.bin/now-purge"
-alias await-url="node_modules/.bin/await-url"
+export PATH="./node_modules/.bin:$PATH"
 
 # 0. Use team
 now switch $TEAM --token "$NOW_TOKEN"
-now-purge -t "$NOW_TOKEN" --team $TEAM # make sure there is quato
 
 # 1. Wair for deployment ready
 URL=$(now -e ORIGIN="$ORIGIN" --public --token "$NOW_TOKEN")
-node_modules/.bin/await-url "$URL"
+await-url "$URL"
 now ls --token "$NOW_TOKEN"
 
 # 2. Alias
 now alias set "$URL" "$ALIAS" --token "$NOW_TOKEN"
 
-# 3. Scale to 1
+# 3. Purge old services
+now remove --yes --safe --token "$NOW_TOKEN" $PROJECT
+
+# 4. Scale to 1
 now scale "$ALIAS" 1 --token "$NOW_TOKEN"
 
-# 4. Purge
-sleep 5 # TODO: remove it
-now-purge -t "$NOW_TOKEN" --team $TEAM
+# 5. Log results
+now ls --token "$NOW_TOKEN"
+now alias ls --token "$NOW_TOKEN"

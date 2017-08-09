@@ -5,6 +5,7 @@
 
 * fix(deploy): fix origin for production
 * docs(CHANGELOG): add Inspiration
+* fix(deploy): drop now-purge and switch to now rm --safe
 
 ## [v1.1.0]
 > Aug 08, 2017
