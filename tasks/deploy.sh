@@ -28,4 +28,5 @@ now alias set "$URL" "$ALIAS" --token "$NOW_TOKEN"
 now scale "$ALIAS" 1 --token "$NOW_TOKEN"
 
 # 4. Purge
+sleep 5 # TODO: remove it
 now-purge -t "$NOW_TOKEN" --team $TEAM
