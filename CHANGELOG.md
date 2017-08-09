@@ -6,6 +6,7 @@
 * fix(deploy): fix origin for production
 * docs(CHANGELOG): add Inspiration
 * fix(deploy): drop now-purge and switch to now rm --safe
+* chore(deploy): optimize docker image & now.sh
 
 ## [v1.1.0]
 > Aug 08, 2017

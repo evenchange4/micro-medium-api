@@ -1,4 +1,4 @@
-FROM node:8.2.1
+FROM node:8.2.1-slim
 MAINTAINER Michael Hsu <evenchange4@gmail.com>
 
 # Config

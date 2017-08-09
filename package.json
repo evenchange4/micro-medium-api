@@ -28,7 +28,10 @@
   "bin": "bin/server.js",
   "now": {
     "alias": "micro-medium-api",
-    "type": "npm"
+    "type": "npm",
+    "env": {
+      "NODE_ENV": "production"
+    }
   },
   "dependencies": {
     "axios": "^0.16.2",
