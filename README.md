@@ -4,6 +4,7 @@
 [![Travis][travis-badge]][travis]
 [![Codecov Status][codecov-badge]][codecov]
 [![Github Tag][githubTag-badge]][githubTag]
+[![node][node]]()
 
 [![Dependency Status][dependency-badge]][dependency]
 [![devDependency Status][devDependency-badge]][devDependency]
@@ -176,6 +177,7 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [travis]: https://travis-ci.org/evenchange4/micro-medium-api
 [codecov-badge]: https://img.shields.io/codecov/c/github/evenchange4/micro-medium-api.svg?style=flat-square
 [codecov]: https://codecov.io/github/evenchange4/micro-medium-api?branch=master
+[node]: https://img.shields.io/node/v/micro-medium-api.svg
 [npm-badge]: https://img.shields.io/npm/v/micro-medium-api.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/micro-medium-api
 [npm-downloads]: https://img.shields.io/npm/dt/micro-medium-api.svg?style=flat-square

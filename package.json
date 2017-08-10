@@ -15,6 +15,10 @@
     "src",
     "bin"
   ],
+  "engineStrict": true,
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "scripts": {
     "start": "micro src/index.js",
     "dev": "micro-dev src/index.js",
