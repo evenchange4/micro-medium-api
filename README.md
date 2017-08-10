@@ -58,7 +58,6 @@ Install from [npm][npm].
 $ npm i micro-medium-api -g
  
 $ ORIGIN=$YOUR_DOMAIN \
-  ACCESS_TOKEN=$GITHUB_ACCESS_TOKEN \
   micro-medium-api --port $PORT
 ```
  
