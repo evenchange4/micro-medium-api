@@ -1,6 +1,6 @@
 {
   "name": "micro-medium-api",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Microservice for fetching the latest posts of Medium.",
   "license": "MIT",
   "repository": "evenchange4/micro-medium-api",
@@ -42,8 +42,6 @@
       "<rootDir>/pkg/"
     ]
   },
-  "bin": "bin/server.js",
-
   "dependencies": {
     "axios": "^0.16.2",
     "micro": "^8.0.1",
