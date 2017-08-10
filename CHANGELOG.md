@@ -7,6 +7,11 @@
 * docs(CHANGELOG): add Inspiration
 * fix(deploy): drop now-purge and switch to now rm --safe
 * chore(deploy): optimize docker image & now.sh
+* chore(docker): optimize image size
+* feat(npm): release
+ 
+BREAK CHANGES: port argument
+
 
 ## [v1.1.0]
 > Aug 08, 2017

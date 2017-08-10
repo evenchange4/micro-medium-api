@@ -30,15 +30,22 @@ after_success:
     fi
 
 deploy:
-  provider: releases
-  api_key:
-    secure: OX2SGfHiMWNNEARCTlqHaI9P7deEFsBdX54yyLMNQEPWYHLNEDWWPfskwfynunKMERaUb1oGyWcp+/RHrrxyz4m3ThSMcXGVFM4gh+Fjsbi99CjWzQvIadsjeyreDBe5/32XnWMvOAtVqWk52F+FfG9J6KW9IMZF5hoWBiQAbAnQ4oFCe9MCb8XqnCU3qj1g0re5ja3ZrlyJWcVcQIT3cI3LMhzcwxvtosdVclmVE13WzZ0+l7Wq44NQhr8F6K7e3PnPzu2RPMjzfTfBmNdDHICoCjHvTaUQdZihU7kNtI8mKvhsh5WH8vVXOI3meCGeUvIskeN6AmDt2JtgmLTVbmqE+GG+m+Cxvb/IZU2xtlifIsN8Mekh81caMOZcuwsOwc4R1SMsPfDeovtKTwfbG99eUB3zLeEDT952YLtD+XEN3l1fVmIN7N2Ie4auY/MCmOpgQbscgzviJlfBAFNETO1nfJvPoqgJF4H2DOHBMkzmMydSM/g3IE5AuEH97zTJolyrSbjTKFl8/9xJbgEM2XB5MF0QEDspXqDojwL+ZE9ij9OyBc6HOtViXQ9cv66C6B1sgvDNH8qfIzYnCif3BFo2Z1mihbE1vrJg6yqzb7pW5ClAWx8Z+SOwKSoCa5UZjHnHpFbTcdyrayvVjyrx9qjebBfJDBL2qESZOter6pM=
-  file_glob: true
-  skip_cleanup: true
-  file: "./pkg/*"
-  on:
-    repo: evenchange4/micro-medium-api
-    tags: true
+  - provider: releases
+    api_key:
+      secure: OX2SGfHiMWNNEARCTlqHaI9P7deEFsBdX54yyLMNQEPWYHLNEDWWPfskwfynunKMERaUb1oGyWcp+/RHrrxyz4m3ThSMcXGVFM4gh+Fjsbi99CjWzQvIadsjeyreDBe5/32XnWMvOAtVqWk52F+FfG9J6KW9IMZF5hoWBiQAbAnQ4oFCe9MCb8XqnCU3qj1g0re5ja3ZrlyJWcVcQIT3cI3LMhzcwxvtosdVclmVE13WzZ0+l7Wq44NQhr8F6K7e3PnPzu2RPMjzfTfBmNdDHICoCjHvTaUQdZihU7kNtI8mKvhsh5WH8vVXOI3meCGeUvIskeN6AmDt2JtgmLTVbmqE+GG+m+Cxvb/IZU2xtlifIsN8Mekh81caMOZcuwsOwc4R1SMsPfDeovtKTwfbG99eUB3zLeEDT952YLtD+XEN3l1fVmIN7N2Ie4auY/MCmOpgQbscgzviJlfBAFNETO1nfJvPoqgJF4H2DOHBMkzmMydSM/g3IE5AuEH97zTJolyrSbjTKFl8/9xJbgEM2XB5MF0QEDspXqDojwL+ZE9ij9OyBc6HOtViXQ9cv66C6B1sgvDNH8qfIzYnCif3BFo2Z1mihbE1vrJg6yqzb7pW5ClAWx8Z+SOwKSoCa5UZjHnHpFbTcdyrayvVjyrx9qjebBfJDBL2qESZOter6pM=
+    file_glob: true
+    skip_cleanup: true
+    file: "./pkg/*"
+    on:
+      repo: evenchange4/micro-medium-api
+      tags: true
+  - provider: npm
+    email: evenchange4@gmail.com
+    api_key:
+      secure: nzArSmu6hEZzCtvoUyqt0WC/NmSDg7v7ny4dPhIKfc0pbhborIh8KHN6zjww/yvplAtgncDBoj1s0E5GqoBFx/D08JeBuoiYoND/Xx2Hi2/ZF1Ikgq6YGlKnsr4J8+MBFS77z1vUVWMGfPGX3ZO8+uBKcJtPjYVQvb384IAiQZ5/oacf/LMLb0s/QeKWKZ88H7qoyDI9OUkYjzRukV4Rt0TRM+brgDMEuNEPZ3wM13V9j2nsDFNE6pBICiRYkq6YCr5C4L63tKxYFj+x6lpW7HmkebEmJcBSjvEELCsrzs7nbk0cT9lueb++FqE33uFLBJZKUJePhbRqTnQTTxyupG2avVu1+v2sU6kP6MMleT6f3HHkjutWnB4/9HNv8Doy7dp6SdOhU8iWka2/wq6l/pCyfFFbx7lANa7uiCSxNaN25XYnLXceHO87MVBH+EI1rv76qyqxI0EHyEul8ZgnuPJ2OX6630IlKfuUiUTzH4OmWhkYwv1P2eJstcu5cwG0lu+5HAxz9RMBIKf27ExQJ09LjzWK5qI8amyI0tWcucV6+vZYQDipVRXHpQT8kWVmnvlSwBeJ2KD8zhMrkqTe3MYcvayB9O+1kZRLy1L7CG2FnzNgzUOTsT6/IK3EPaDDd3ydHr5mgWHqkWlx2Sk1/gEDRI/2X5urIdFj3saW5uA=
+    on:
+      repo: evenchange4/micro-medium-api
+      tags: true
 
 cache:
   yarn: true

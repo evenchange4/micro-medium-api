@@ -1,18 +1,24 @@
-/**
- * This is for pkg binary file.
- *
- * example:
- *
- * $ ./micro-medium-api 3001
- *
- * @author Michael Hsu
- */
+#!/usr/bin/env node
 
 const micro = require('micro');
-const main = require('../src/index');
+const updateNotifier = require('update-notifier');
+const pkg = require('../package.json');
+const handler = require('../src/index');
 
-const PORT = process.argv[2] || 3000;
+updateNotifier({ pkg }).notify();
 
-console.log(`> [Mirco-medium-api] server is running on port ${PORT}`); // eslint-disable-line
+const argv = require('yargs')
+  .usage('Usage: $0 <command> [options]')
+  .option('p', {
+    alias: 'port',
+    describe: 'HTTP server PORT',
+  })
+  .default('p', 3000)
+  .help('h')
+  .alias('h', 'help')
+  .version(() => pkg.version)
+  .alias('v', 'version').argv;
 
-micro(main).listen(PORT);
+console.log(`> [Mirco-medium-api] server is running on port ${argv.p}`); // eslint-disable-line
+
+micro(handler).listen(argv.p);
