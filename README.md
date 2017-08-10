@@ -142,7 +142,7 @@ $ yarn run test:watch
 ### Docker
 
 ```
-$ docker build -t mirco-medium-api .
+$ docker build -t micro-medium-api .
 
 # Push to dockerhub
 $ git push
