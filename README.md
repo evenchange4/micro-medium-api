@@ -177,7 +177,7 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [travis]: https://travis-ci.org/evenchange4/micro-medium-api
 [codecov-badge]: https://img.shields.io/codecov/c/github/evenchange4/micro-medium-api.svg?style=flat-square
 [codecov]: https://codecov.io/github/evenchange4/micro-medium-api?branch=master
-[node]: https://img.shields.io/node/v/micro-medium-api.svg
+[node]: https://img.shields.io/node/v/micro-medium-api.svg?style=flat-square
 [npm-badge]: https://img.shields.io/npm/v/micro-medium-api.svg?style=flat-square
 [npm]: https://www.npmjs.com/package/micro-medium-api
 [npm-downloads]: https://img.shields.io/npm/dt/micro-medium-api.svg?style=flat-square
@@ -193,10 +193,10 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [license]: http://michaelhsu.mit-license.org/
 [greenkeeper-badge]: https://badges.greenkeeper.io/evenchange4/micro-medium-api.svg
 [greenkeeper]: https://greenkeeper.io/
-[dockerhub-auto-badge]: https://img.shields.io/docker/automated/evenchange4/micro-medium-api.svg
+[dockerhub-auto-badge]: https://img.shields.io/docker/automated/evenchange4/micro-medium-api.svg?style=flat-square
 [dockerhub]: https://hub.docker.com/r/evenchange4/micro-medium-api/
-[dockerPulls-badge]: https://img.shields.io/docker/pulls/evenchange4/micro-medium-api.svg
+[dockerPulls-badge]: https://img.shields.io/docker/pulls/evenchange4/micro-medium-api.svg?style=flat-square
 [dockerSize]: https://microbadger.com/images/evenchange4/micro-medium-api
 [dockerSize-badge]: https://images.microbadger.com/badges/image/evenchange4/micro-medium-api.svg
-[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg
+[prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
