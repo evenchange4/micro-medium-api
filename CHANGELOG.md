@@ -3,6 +3,9 @@
 ## [HEAD]
 > Unreleased
 
+## [v1.2.0]
+> Aug 10, 2017
+
 * fix(deploy): fix origin for production
 * docs(CHANGELOG): add Inspiration
 * fix(deploy): drop now-purge and switch to now rm --safe
