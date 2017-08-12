@@ -1,6 +1,6 @@
 {
   "name": "micro-medium-api",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Microservice for fetching the latest posts of Medium.",
   "license": "MIT",
   "repository": "evenchange4/micro-medium-api",
