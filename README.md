@@ -1,5 +1,7 @@
 # Micro-medium-api
 > Microservice for fetching the latest posts of Medium.
+>
+> Further reading: [\[中文\] Microservice 產品交付 - Dockerize 與 Zeit JavaScript 跨平台解決方案](https://medium.com/@evenchange4/microservice-%E7%94%A2%E5%93%81%E4%BA%A4%E4%BB%98-9f2954c7167d)
 
 [![Travis][travis-badge]][travis]
 [![Codecov Status][codecov-badge]][codecov]
