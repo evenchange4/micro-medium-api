@@ -3,7 +3,11 @@
 ## [HEAD]
 > Unreleased
 
+## [v1.2.3]
+> Aug 12, 2017
+
 * chore(npm): ncu update eslint
+* chore(github-release): zip all
 
 ## [v1.2.2]
 > Aug 10, 2017
