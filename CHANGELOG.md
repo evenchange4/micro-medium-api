@@ -3,6 +3,11 @@
 ## [HEAD]
 > Unreleased
 
+## [v1.2.4]
+> Aug 12, 2017
+
+* fix(travis): wrong deploy script
+
 ## [v1.2.3]
 > Aug 12, 2017
 

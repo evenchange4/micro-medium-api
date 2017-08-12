@@ -17,6 +17,7 @@ script:
   - yarn run eslint
   - yarn run test
   - yarn run pkg
+  - ./tasks/zip.sh
 
 after_success:
   - ./node_modules/.bin/codecov
@@ -28,9 +29,6 @@ after_success:
     if [ "$TRAVIS_BRANCH" == 'master' ] && [ "$TRAVIS_PULL_REQUEST" == 'false' ]; then
       ./tasks/deploy-prod.sh
     fi
-
-before_deploy:
-  - ./tasks/zip.sh
 
 deploy:
   - provider: releases
