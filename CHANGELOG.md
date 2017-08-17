@@ -3,6 +3,11 @@
 ## [HEAD]
 > Unreleased
 
+## [v2.0.0]
+> Aug 17, 2017
+
+* feat(graphqlify): introduce apollo server [BREAKING]
+
 ## [v1.2.4]
 > Aug 12, 2017
 
