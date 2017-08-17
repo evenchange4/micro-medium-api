@@ -3,6 +3,8 @@
 ## [HEAD]
 > Unreleased
 
+* fix(cors): allow POST and OPTIONS
+
 ## [v2.0.0]
 > Aug 17, 2017
 

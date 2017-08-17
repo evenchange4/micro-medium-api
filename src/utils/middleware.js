@@ -6,7 +6,7 @@ const ORIGIN = process.env.ORIGIN;
 
 const middleware = R.compose(
   cors({
-    allowMethods: ['GET'],
+    allowMethods: ['GET', 'POST', 'OPTIONS'],
     allowHeaders: [],
     origin: ORIGIN || '*',
   }),
