@@ -1,10 +1,10 @@
-FROM node:8.2.1-slim AS builder
+FROM node:8.4.0-slim AS builder
 WORKDIR /app
 COPY . .
 RUN yarn install --pure-lockfile --production
 RUN ls -lA
 
-FROM mhart/alpine-node:base-8.2.1
+FROM mhart/alpine-node:base-8.4.0
 ENV PORT=3000
 WORKDIR /app
 COPY --from=builder /app .

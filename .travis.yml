@@ -1,7 +1,7 @@
 sudo: false
 language: node_js
 node_js:
-  - 8.2.1
+  - 8.4.0
 env:
   global:
     - YARN_VERSION=0.27.5
