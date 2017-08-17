@@ -1,13 +1,15 @@
 const axios = require('axios');
-const queryString = require('./queryString');
 const { BASE_URL } = require('./constants');
+const parser = require('./parser');
 
-const getPosts = (username, query) =>
-  axios.request(`@${username}/latest?${queryString(query)}`, {
-    method: 'get',
-    baseURL: BASE_URL,
-    responseType: 'text',
-  });
+const getPosts = (username, limit = 10) =>
+  axios
+    .request(`@${username}/latest?format=json&limit=${limit}`, {
+      method: 'get',
+      baseURL: BASE_URL,
+      responseType: 'text',
+    })
+    .then(parser.toJSON);
 
 module.exports = {
   getPosts,

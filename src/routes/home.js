@@ -5,10 +5,11 @@ const home = (req, res) =>
     res,
     200,
     `
-    Please try
+    Please try the GraphiQL:
+    /graphiql
 
-    /@:username/posts
-    /@:username/posts?limit=100&type=simple
+    Endpoint:
+    [GET/POST] /graphql
 `,
   );
 
