@@ -4,10 +4,11 @@ exports[`should return home 1`] = `
 Object {
   "code": 200,
   "content": "
-    Please try
+    Please try the GraphiQL:
+    /graphiql
 
-    /@:username/posts
-    /@:username/posts?limit=100&type=simple
+    Endpoint:
+    [GET/POST] /graphql
 ",
   "res": undefined,
 }

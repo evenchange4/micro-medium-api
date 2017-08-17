@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should resolve query posts 1`] = `
+Object {
+  "limit": 10,
+  "username": "evenchange4",
+}
+`;
+
+exports[`should resolve query user 1`] = `
+Object {
+  "limit": undefined,
+  "username": "evenchange4",
+}
+`;

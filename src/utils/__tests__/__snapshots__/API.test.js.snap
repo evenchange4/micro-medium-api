@@ -1,12 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should return API getPosts 1`] = `
+exports[`should return API getPosts with correct default limit 1`] = `
 Object {
   "options": Object {
     "baseURL": "https://medium.com",
     "method": "get",
     "responseType": "text",
   },
-  "url": "@username/latest?format=json",
+  "url": "@username/latest?format=json&limit=10",
+}
+`;
+
+exports[`should return API getPosts with limit 100 1`] = `
+Object {
+  "options": Object {
+    "baseURL": "https://medium.com",
+    "method": "get",
+    "responseType": "text",
+  },
+  "url": "@username/latest?format=json&limit=100",
 }
 `;

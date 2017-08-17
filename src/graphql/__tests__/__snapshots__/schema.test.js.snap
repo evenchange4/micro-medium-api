@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return mocked post data 1`] = `
+Object {
+  "data": Object {
+    "posts": Array [
+      Object {
+        "title": "Hello World",
+      },
+      Object {
+        "title": "Hello World",
+      },
+    ],
+  },
+}
+`;
+
+exports[`should return mocked user data 1`] = `
+Object {
+  "data": Object {
+    "user": Object {
+      "bio": "Hello World",
+    },
+  },
+}
+`;

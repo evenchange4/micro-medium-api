@@ -15,6 +15,10 @@
 [![prettier][prettier-badge]][prettier]
 [![license][license-badge]][license]
 
+## Feature
+
+- Use GraphQL.
+
 ## How To Use
 
 ### a. Deploy to Now.sh
@@ -87,22 +91,16 @@ Options:
   -v, --version  Show version number                                   [boolean]
 ```
 
-### URL pathname
+### GraphQL endpoint
 
-| **Method** | **Pathname** | **Description** |
-| --------- | --------- | --------- |
-| GET | `/@:username/posts` | Latest post list as json format. |
-
-### URL query parameters
-
-| **Query**   | **Required**  | **Default**  | **Description** |
-| --------- | --------- | --------- | --------- |
-| `limit`  |  | `10` | Medium API |
-| `type`  |  |  | A simple array returned if set the value to `simple`. |
+- [GET] /graphql
+- [POST] /graphql
 
 ## Demo
 
-- https://micro-medium-api.now.sh/@evenchange4/posts?limit=100&type=simple
+- [GraphiQL](https://micro-medium-api.now.sh/graphiql)
+- [GraphiQL with example](https://micro-medium-api.now.sh/graphiql/graphiql?query=query%20PostQuery(%24username%3A%20String!%2C%20%24limit%3A%20Int!)%7B%0A%20%20posts(username%3A%20%24username%2C%20limit%3A%20%24limit)%20%7B%0A%20%20%20%20title%0A%20%20%20%20firstPublishedAt%0A%20%20%20%20url%0A%20%20%20%20content%20%7B%0A%20%20%20%20%20%20subtitle%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20user(username%3A%20%24username)%20%7B%0A%20%20%20%20username%0A%20%20%20%20name%0A%20%20%20%20bio%0A%20%20%7D%0A%7D%0A&variables=%7B%0A%20%20"username"%3A%20"evenchange4"%2C%0A%20%20"limit"%3A%20100%0A%7D&operationName=PostQuery)
+- [GET example](https://micro-medium-api.now.sh/graphql/graphiql?query=query%20PostQuery(%24username%3A%20String!%2C%20%24limit%3A%20Int!)%7B%0A%20%20posts(username%3A%20%24username%2C%20limit%3A%20%24limit)%20%7B%0A%20%20%20%20title%0A%20%20%20%20firstPublishedAt%0A%20%20%20%20url%0A%20%20%20%20content%20%7B%0A%20%20%20%20%20%20subtitle%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20user(username%3A%20%24username)%20%7B%0A%20%20%20%20username%0A%20%20%20%20name%0A%20%20%20%20bio%0A%20%20%7D%0A%7D%0A&variables=%7B%0A%20%20"username"%3A%20"evenchange4"%2C%0A%20%20"limit"%3A%20100%0A%7D&operationName=PostQuery)
 - Real-World case:  [michaelhsu.tw](https://michaelhsu.tw/) [[source code](https://github.com/evenchange4/michaelhsu.tw)]
 
 > Note: You should deploy your own service for production usage.
@@ -111,6 +109,8 @@ Options:
 
 - [Micro](https://github.com/zeit/micro): Asynchronous HTTP microservices.
 - [Micro-router](https://github.com/pedronauck/micro-router): A tiny and functional router for Zeit's Micro.
+- [Graphql-tools](https://github.com/apollographql/graphql-tools): 🔧 Build and mock your GraphQL.js schema using the schema language.
+- [Graphql-server-micro](https://github.com/apollographql/apollo-server/tree/master/packages/graphql-server-micro): 🌍 GraphQL server
 - [Dockerhub][dockerhub]: Automatically deploy docker image.
 - [Now.sh](https://zeit.co/now): Realtime global deployments
 - [Pkg](https://github.com/zeit/pkg): Package your Node.js project into an executable

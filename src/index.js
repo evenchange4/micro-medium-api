@@ -1,22 +1,15 @@
-const R = require('ramda');
-const { router, get } = require('microrouter');
-const compress = require('micro-compress');
-const cors = require('micro-cors');
-const posts = require('./routes/posts');
+const { router, get, post } = require('microrouter');
+const { microGraphiql, microGraphql } = require('graphql-server-micro');
 const home = require('./routes/home');
+const middleware = require('./utils/middleware');
+const schema = require('./graphql/schema');
 
-const ORIGIN = process.env.ORIGIN;
-
-const enhance = R.compose(
-  cors({
-    allowMethods: ['GET'],
-    allowHeaders: [],
-    origin: ORIGIN || '*',
-  }),
-  compress,
-);
+const graphqlHandler = microGraphql({ schema });
+const graphiqlHandler = microGraphiql({ endpointURL: '/graphql' });
 
 module.exports = router(
-  get('/@:username/posts', enhance(posts)),
-  get('*', enhance(home)),
+  get('/graphql', middleware(graphqlHandler)),
+  post('/graphql', middleware(graphqlHandler)),
+  get('/graphiql', middleware(graphiqlHandler)),
+  get('*', middleware(home)),
 );
