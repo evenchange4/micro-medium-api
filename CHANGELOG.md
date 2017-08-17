@@ -3,6 +3,9 @@
 ## [HEAD]
 > Unreleased
 
+## [v2.0.1]
+> Aug 18, 2017
+
 * fix(cors): allow POST and OPTIONS
 * feat(env): upgrade node to 8.4.0
 
