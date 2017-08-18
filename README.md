@@ -18,6 +18,7 @@
 ## Feature
 
 - Use GraphQL.
+- Dataloader for per-request memory cache.
 
 ## How To Use
 
@@ -99,8 +100,7 @@ Options:
 ## Demo
 
 - [GraphiQL](https://micro-medium-api.now.sh/graphiql)
-- [GraphiQL with example](https://micro-medium-api.now.sh/graphiql?query=query%20PostQuery(%24username%3A%20String!%2C%20%24limit%3A%20Int!)%7B%0A%20%20posts(username%3A%20%24username%2C%20limit%3A%20%24limit)%20%7B%0A%20%20%20%20title%0A%20%20%20%20firstPublishedAt%0A%20%20%20%20url%0A%20%20%20%20content%20%7B%0A%20%20%20%20%20%20subtitle%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20user(username%3A%20%24username)%20%7B%0A%20%20%20%20username%0A%20%20%20%20name%0A%20%20%20%20bio%0A%20%20%7D%0A%7D%0A&variables=%7B%0A%20%20"username"%3A%20"evenchange4"%2C%0A%20%20"limit"%3A%20100%0A%7D&operationName=PostQuery)
-- [GET example](https://micro-medium-api.now.sh/graphql?query=query%20PostQuery(%24username%3A%20String!%2C%20%24limit%3A%20Int!)%7B%0A%20%20posts(username%3A%20%24username%2C%20limit%3A%20%24limit)%20%7B%0A%20%20%20%20title%0A%20%20%20%20firstPublishedAt%0A%20%20%20%20url%0A%20%20%20%20content%20%7B%0A%20%20%20%20%20%20subtitle%0A%20%20%20%20%7D%0A%20%20%7D%0A%20%20%0A%20%20user(username%3A%20%24username)%20%7B%0A%20%20%20%20username%0A%20%20%20%20name%0A%20%20%20%20bio%0A%20%20%7D%0A%7D%0A&variables=%7B%0A%20%20"username"%3A%20"evenchange4"%2C%0A%20%20"limit"%3A%20100%0A%7D&operationName=PostQuery)
+- [HTTP GET example](https://micro-medium-api.now.sh/graphql?query=query%20PostQuery(%24username%3A%20String!%2C%20%24limit%3A%20Int)%20%7B%0A%20%20posts(username%3A%20%24username%2C%20limit%3A%20%24limit)%20%7B%0A%20%20%20%20title%0A%20%20%20%20firstPublishedAt%0A%20%20%20%20url%0A%20%20%20%20subtitle%0A%20%20%7D%0A%20%20%0A%20%20user(username%3A%20%24username)%20%7B%0A%20%20%20%20username%0A%20%20%20%20name%0A%20%20%20%20bio%0A%20%20%7D%0A%7D&variables=%7B%0A%20%20"username"%3A%20"evenchange4"%2C%0A%20%20"limit"%3A%20100%0A%7D)
 - Real-World case:  [michaelhsu.tw](https://michaelhsu.tw/) [[source code](https://github.com/evenchange4/michaelhsu.tw)]
 
 > Note: You should deploy your own service for production usage.
@@ -111,6 +111,7 @@ Options:
 - [Micro-router](https://github.com/pedronauck/micro-router): A tiny and functional router for Zeit's Micro.
 - [Graphql-tools](https://github.com/apollographql/graphql-tools): 🔧 Build and mock your GraphQL.js schema using the schema language.
 - [Graphql-server-micro](https://github.com/apollographql/apollo-server/tree/master/packages/graphql-server-micro): 🌍 GraphQL server
+- [Dataloader](https://github.com/facebook/dataloader): DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.
 - [Dockerhub][dockerhub]: Automatically deploy docker image.
 - [Now.sh](https://zeit.co/now): Realtime global deployments
 - [Pkg](https://github.com/zeit/pkg): Package your Node.js project into an executable

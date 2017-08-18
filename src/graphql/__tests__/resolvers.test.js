@@ -1,13 +1,8 @@
 const resolvers = require('../resolvers');
 
-jest.mock('../../utils/API', () => ({
-  getPosts: (username, limit) =>
-    new Promise(resolve => resolve({ username, limit })),
-}));
-
 jest.mock('../../utils/parser', () => ({
-  getPosts: data => data,
-  getUser: data => data,
+  posts: data => data,
+  user: data => data,
 }));
 
 it('should resolve query posts', async () => {
@@ -17,6 +12,11 @@ it('should resolve query posts', async () => {
       {
         username: 'evenchange4',
         limit: 10,
+      },
+      {
+        Raw: {
+          load: data => new Promise(resolve => resolve(data)),
+        },
       },
     ),
   ).toMatchSnapshot();
@@ -28,6 +28,11 @@ it('should resolve query user', async () => {
       {},
       {
         username: 'evenchange4',
+      },
+      {
+        Raw: {
+          load: data => new Promise(resolve => resolve(data)),
+        },
       },
     ),
   ).toMatchSnapshot();

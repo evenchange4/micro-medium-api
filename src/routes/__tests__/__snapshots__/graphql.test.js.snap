@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return graphql arguments 1`] = `
+Object {
+  "context": Object {
+    "Raw": DataLoader {
+      "_batchLoadFn": [Function],
+      "_options": Object {
+        "cacheKeyFn": [Function],
+      },
+      "_promiseCache": Map {},
+      "_queue": Array [],
+    },
+  },
+  "schema": Object {
+    "schema": "mock",
+  },
+}
+`;

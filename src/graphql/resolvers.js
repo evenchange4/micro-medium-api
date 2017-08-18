@@ -1,13 +1,18 @@
-const API = require('../utils/API');
+const R = require('ramda');
 const TimestampType = require('../utils/TimestampType');
 const parser = require('../utils/parser');
 
 const resolvers = {
   Query: {
-    posts: (obj, args) =>
-      API.getPosts(args.username, args.limit).then(parser.getPosts),
-    user: (obj, args) =>
-      API.getPosts(args.username, args.limit).then(parser.getUser),
+    posts: (obj, { username, limit }, context) =>
+      context.Raw.load({ username, limit }).then(parser.posts),
+
+    user: (obj, { username }, context) =>
+      context.Raw.load({ username }).then(parser.user),
+  },
+
+  Post: {
+    subtitle: R.path(['content', 'subtitle']),
   },
 
   Timestamp: TimestampType,

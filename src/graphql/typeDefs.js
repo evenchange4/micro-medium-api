@@ -8,6 +8,7 @@ const typeDefs = `
   type Post {
     id: ID!
     title: String!
+    subtitle: String
     uniqueSlug: String!
     url: String!
     content: Content!

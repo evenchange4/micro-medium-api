@@ -1,11 +1,7 @@
 const R = require('ramda');
 const { BASE_URL } = require('./constants');
 
-const toJSON = R.pipe(
-  R.prop('data'),
-  R.replace('])}while(1);</x>', ''),
-  JSON.parse,
-);
+const toJSON = R.pipe(R.replace('])}while(1);</x>', ''), JSON.parse);
 
 const assocWithUrl = (username, posts) =>
   posts.map(post => {
@@ -13,7 +9,7 @@ const assocWithUrl = (username, posts) =>
     return R.assoc('url', url)(post);
   });
 
-const getPosts = R.pipe(
+const posts = R.pipe(
   R.prop('payload'),
   R.converge(assocWithUrl, [
     R.path(['user', 'username']),
@@ -21,10 +17,10 @@ const getPosts = R.pipe(
   ]),
 );
 
-const getUser = R.path(['payload', 'user']);
+const user = R.path(['payload', 'user']);
 
 module.exports = {
   toJSON,
-  getPosts,
-  getUser,
+  posts,
+  user,
 };

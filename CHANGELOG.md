@@ -3,6 +3,8 @@
 ## [HEAD]
 > Unreleased
 
+* refactor: drop axios & introduce dataloader
+
 ## [v2.0.1]
 > Aug 18, 2017
 

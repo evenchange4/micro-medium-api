@@ -1,8 +1,8 @@
 const API = require('../API');
 
-jest.mock('axios', () => ({
-  request: (url, options) => new Promise(resolve => resolve({ url, options })),
-}));
+jest.mock('request-promise', () => data =>
+  new Promise(resolve => resolve(data)),
+);
 
 jest.mock('../parser', () => ({
   toJSON: response => response,
