@@ -2536,6 +2536,10 @@ micro-dev@^1.2.1:
     pretty-error "2.1.1"
     string-length "2.0.0"
 
+micro-ratelimit@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/micro-ratelimit/-/micro-ratelimit-0.2.0.tgz#68585fa8baed3b7dc696196889a0a7dfa6254bdf"
+
 micro@8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/micro/-/micro-8.0.2.tgz#e49127185c8d1a61146f0555603bef2a7fc47b03"
