@@ -12,6 +12,7 @@ const middleware = R.compose(
     origin: ORIGIN || '*',
   }),
   compress,
+  // TODO: jest problem --forceExit
   R.curry(rateLimit)({ window: 1000, limit: 1 }),
 );
 

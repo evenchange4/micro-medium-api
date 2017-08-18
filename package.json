@@ -25,7 +25,7 @@
     "pkg": "rm -rf pkg && pkg . --out-path pkg",
     "eslint": "eslint ./",
     "format": "prettier --trailing-comma all --single-quote --write '{src,bin}/**/*.js'",
-    "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand",
+    "test": "NODE_ENV='test' TZ='UTC' jest --coverage --runInBand --forceExit",
     "test:watch": "npm run test -- --watch"
   },
   "now": {
