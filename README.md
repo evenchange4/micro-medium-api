@@ -19,6 +19,7 @@
 
 - Use GraphQL.
 - Dataloader for per-request memory cache.
+- Rate-limiting 1 requests per sec.
 
 ## How To Use
 
@@ -109,6 +110,7 @@ Options:
 
 - [Micro](https://github.com/zeit/micro): Asynchronous HTTP microservices.
 - [Micro-router](https://github.com/pedronauck/micro-router): A tiny and functional router for Zeit's Micro.
+- [Micro-ratelimit](https://github.com/dotcypress/micro-ratelimit): Rate-limiting middleware for micro.
 - [Graphql-tools](https://github.com/apollographql/graphql-tools): 🔧 Build and mock your GraphQL.js schema using the schema language.
 - [Graphql-server-micro](https://github.com/apollographql/apollo-server/tree/master/packages/graphql-server-micro): 🌍 GraphQL server
 - [Dataloader](https://github.com/facebook/dataloader): DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.

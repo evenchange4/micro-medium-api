@@ -4,6 +4,7 @@
 > Unreleased
 
 * refactor: drop axios & introduce dataloader
+* feat(middleware): add rateLimit feature.
 
 ## [v2.0.1]
 > Aug 18, 2017

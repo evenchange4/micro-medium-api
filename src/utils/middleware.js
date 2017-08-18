@@ -1,6 +1,7 @@
 const R = require('ramda');
 const compress = require('micro-compress');
 const cors = require('micro-cors');
+const rateLimit = require('micro-ratelimit');
 
 const ORIGIN = process.env.ORIGIN;
 
@@ -11,6 +12,8 @@ const middleware = R.compose(
     origin: ORIGIN || '*',
   }),
   compress,
+  // TODO: jest problem --forceExit
+  R.curry(rateLimit)({ window: 1000, limit: 1 }),
 );
 
 module.exports = middleware;
