@@ -18,6 +18,7 @@
 ## Feature
 
 - Use GraphQL.
+- Dataloader for per-request memory cache.
 
 ## How To Use
 
@@ -110,6 +111,7 @@ Options:
 - [Micro-router](https://github.com/pedronauck/micro-router): A tiny and functional router for Zeit's Micro.
 - [Graphql-tools](https://github.com/apollographql/graphql-tools): 🔧 Build and mock your GraphQL.js schema using the schema language.
 - [Graphql-server-micro](https://github.com/apollographql/apollo-server/tree/master/packages/graphql-server-micro): 🌍 GraphQL server
+- [Dataloader](https://github.com/facebook/dataloader): DataLoader is a generic utility to be used as part of your application's data fetching layer to provide a consistent API over various backends and reduce requests to those backends via batching and caching.
 - [Dockerhub][dockerhub]: Automatically deploy docker image.
 - [Now.sh](https://zeit.co/now): Realtime global deployments
 - [Pkg](https://github.com/zeit/pkg): Package your Node.js project into an executable
