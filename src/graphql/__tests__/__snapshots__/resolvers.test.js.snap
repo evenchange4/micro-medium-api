@@ -9,7 +9,6 @@ Object {
 
 exports[`should resolve query user 1`] = `
 Object {
-  "limit": undefined,
   "username": "evenchange4",
 }
 `;

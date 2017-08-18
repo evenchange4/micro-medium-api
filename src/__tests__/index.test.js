@@ -22,7 +22,7 @@ it('should run server without error', async () => {
 it('should return correct json data', async () => {
   nock('https://medium.com')
     .get('/@evenchange4/latest')
-    .times(2)
+    .times(1)
     .query(true)
     .reply(200, data);
 

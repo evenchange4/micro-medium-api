@@ -2,22 +2,22 @@
 
 exports[`should return API getPosts with correct default limit 1`] = `
 Object {
-  "options": Object {
-    "baseURL": "https://medium.com",
-    "method": "get",
-    "responseType": "text",
+  "method": "GET",
+  "qs": Object {
+    "format": "json",
+    "limit": 10,
   },
-  "url": "@username/latest?format=json&limit=10",
+  "uri": "https://medium.com/@undefined/latest",
 }
 `;
 
 exports[`should return API getPosts with limit 100 1`] = `
 Object {
-  "options": Object {
-    "baseURL": "https://medium.com",
-    "method": "get",
-    "responseType": "text",
+  "method": "GET",
+  "qs": Object {
+    "format": "json",
+    "limit": 10,
   },
-  "url": "@username/latest?format=json&limit=100",
+  "uri": "https://medium.com/@undefined/latest",
 }
 `;

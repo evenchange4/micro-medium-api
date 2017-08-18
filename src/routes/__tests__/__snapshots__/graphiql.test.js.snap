@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return graphiql with endpointURL 1`] = `
+Object {
+  "endpointURL": "/graphql",
+  "operationName": "PostQuery",
+  "query": "query PostQuery($username: String!, $limit: Int) {
+  posts(username: $username, limit: $limit) {
+    title
+    firstPublishedAt
+    url
+    subtitle
+  }
+  user(username: $username) {
+    username
+    name
+    bio
+  }
+}",
+  "variables": Object {
+    "limit": 100,
+    "username": "evenchange4",
+  },
+}
+`;
