@@ -52,7 +52,7 @@
     "graphql": "^0.10.5",
     "graphql-server-micro": "^1.1.0",
     "graphql-tools": "^1.2.1",
-    "micro": "^8.0.2",
+    "micro": "^9.0.0",
     "micro-compress": "^1.0.0",
     "micro-cors": "^0.0.4",
     "micro-ratelimit": "^0.2.0",
