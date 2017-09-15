@@ -3,6 +3,10 @@
 ## [HEAD]
 > Unreleased
 
+* docs(LICENSE): update year to 2017
+* chore(env): use node 8.5.0 yarn 1.0.2
+* chore(package): ncu update
+
 ## [v2.1.0]
 > Aug 18, 2017
 
