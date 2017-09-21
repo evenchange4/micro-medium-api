@@ -55,7 +55,7 @@
     "micro": "^9.0.0",
     "micro-compress": "^1.0.0",
     "micro-cors": "^0.0.4",
-    "micro-ratelimit": "^0.2.0",
+    "micro-ratelimit": "^0.3.0",
     "microrouter": "^2.2.2",
     "query-string": "^5.0.0",
     "ramda": "^0.24.1",
