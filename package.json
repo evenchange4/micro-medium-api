@@ -58,7 +58,7 @@
     "micro-ratelimit": "^0.2.0",
     "microrouter": "^2.2.2",
     "query-string": "^5.0.0",
-    "ramda": "^0.24.1",
+    "ramda": "^0.25.0",
     "request-promise": "^4.2.1",
     "update-notifier": "^2.2.0",
     "yargs": "^8.0.2"
