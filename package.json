@@ -68,7 +68,7 @@
     "babel-eslint": "^8.0.0",
     "codecov": "^2.3.0",
     "eslint": "^4.6.1",
-    "eslint-config-airbnb": "^15.1.0",
+    "eslint-config-airbnb": "^16.1.0",
     "eslint-config-prettier": "^2.4.0",
     "eslint-config-react-app": "^2.0.0",
     "eslint-plugin-flowtype": "^2.35.1",
