@@ -61,7 +61,7 @@
     "ramda": "^0.24.1",
     "request-promise": "^4.2.1",
     "update-notifier": "^2.2.0",
-    "yargs": "^8.0.2"
+    "yargs": "^10.0.3"
   },
   "devDependencies": {
     "await-url": "^0.3.0",
