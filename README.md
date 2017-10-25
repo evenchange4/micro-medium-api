@@ -6,7 +6,8 @@
 [![Travis][travis-badge]][travis]
 [![Codecov Status][codecov-badge]][codecov]
 [![Github Tag][githubTag-badge]][githubTag]
-[![node][node]]()
+[![node][node]][![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevenchange4%2Fmicro-medium-api.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevenchange4%2Fmicro-medium-api?ref=badge_shield)
+()
 
 [![Dependency Status][dependency-badge]][dependency]
 [![devDependency Status][devDependency-badge]][devDependency]
@@ -205,3 +206,6 @@ MIT: [http://michaelhsu.mit-license.org](http://michaelhsu.mit-license.org)
 [dockerSize-badge]: https://images.microbadger.com/badges/image/evenchange4/micro-medium-api.svg
 [prettier-badge]: https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square
 [prettier]: https://github.com/prettier/prettier
+
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fevenchange4%2Fmicro-medium-api.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fevenchange4%2Fmicro-medium-api?ref=badge_large)
